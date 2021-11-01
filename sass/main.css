@@ -2,6 +2,12 @@
   background: #1f1a1a;
 }
 
+.kino__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
 }

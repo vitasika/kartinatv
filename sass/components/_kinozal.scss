@@ -1,13 +1,30 @@
 .kinozal {  
   background: #1f1a1a;
   color: #ffffff;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
 }
 
 .kino__list{
   display: flex;
   flex-wrap: wrap;
-  margin-right: -16px;
-  margin-left: -16px;
+  justify-content: space-between;
+  // margin-right: -16px;
+  // margin-left: -16px;
+}
+
+.kino__pic{
+  width: 96px;
+  height: 64px;
+}
+
+.kino__h2{
+  font-size: 3rem;
+  margin-bottom: 18px;
 }
 
 

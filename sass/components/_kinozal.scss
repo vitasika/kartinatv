@@ -1,9 +1,13 @@
 .kinozal {  
   background: #1f1a1a;
+  color: #ffffff;
 }
 
 .kino__list{
   display: flex;
+  flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
 }
 
 

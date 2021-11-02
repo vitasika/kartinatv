@@ -1,11 +1,16 @@
 .kinozal {
   background: #1f1a1a;
+  color: #ffffff;
 }
 
 .kino__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -16px;
+  margin-left: -16px;
 }
 
 body {
@@ -29,9 +34,13 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 ul,
 p {
-  margin: 0;
+  margin-bottom: 1.125rem;
+  font-weight: 600px;
+  line-height: 1.166;
 }
 
 img {

@@ -1,7 +1,7 @@
 .kinozal {  
   background: #1f1a1a;
   color: #ffffff;
-
+  
   @media screen and (min-width: 1200px) {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -13,18 +13,25 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  // margin-right: -16px;
-  // margin-left: -16px;
 }
 
 .kino__pic{
   width: 96px;
   height: 64px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover, &:focus{
+    box-shadow: 0 1.25rem 3rem -1.25rem #BFCC42;
+  }
 }
 
 .kino__h2{
-  font-size: 3rem;
+  font-size: 48px;
   margin-bottom: 18px;
+
+  // &:hover, &:focus{
+  //   color: tomato;
+  // }
 }
 
 
@@ -47,5 +54,116 @@
 //   @media screen and (min-width: 1200px) {
 //     padding-top: 94px;
 //     padding-bottom: 94px;
+//   }
+// }
+
+// .clients__btn{
+//   border: 1px solid #AFB1B8;
+//   box-sizing: border-box;
+//   border-radius: 4px; 
+//   background-color: $background-head-color;
+//   padding: 0;
+//   margin: 0;
+  
+//   &:hover,
+//   &:focus {
+//     border-color: $second-text-color;
+//     cursor: pointer;
+//   }
+  
+//   &:hover svg,
+//   &:focus svg {
+//     fill: $second-text-color;
+//   }
+
+//   @media screen and (max-width: 479px) {
+//     height: 92px;
+//   }
+
+
+//   @media screen and (min-width: 480px) {
+//     width: 210px;
+//     height: 92px;
+//   }
+  
+//   @media screen and (min-width: 768px) {
+//     width: 226px;
+//   }
+  
+//   @media screen and (min-width: 1200px) {
+//     width: 170px;
+//   }
+
+
+// }
+
+// .clients__logo{  
+//   width: 106px;
+//   height: 60px;
+//   fill: #AFB1B8;
+
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   @media screen and (max-width: 479px) {
+//     width: calc((100% - 2 * 15px) / 1);
+//     margin: 15px;
+//   }
+// }
+
+// .clients__list{
+
+//   @media screen and (max-width: 479px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin: -15px;
+//   }
+
+//   @media screen and (min-width: 480px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin: -15px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin: -15px;
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     display: flex;
+//     justify-content: space-between;
+//     margin: 0px;
+//   }
+  
+// }
+
+
+// .clients__nane {  
+//   height: 92px;
+//   background: #ffffff; 
+
+//   @media screen and (max-width: 479px) {
+//     flex-basis: calc((100% - 4 * 15px) / 2);
+//     margin: 15px;
+//   }
+
+//   @media screen and (min-width: 480px) {
+//     flex-basis: calc((100% - 4 * 15px) / 2);
+//     margin: 15px;    
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     flex-basis: calc((100% - 6 * 15px) / 3);
+//     margin: 15px;    
+//     background: #ffffff;        
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     width: 170px;
+//     margin: 0;
+//     flex-basis: 0;
+//     display: flex;
+//     justify-content: space-between;
 //   }
 // }

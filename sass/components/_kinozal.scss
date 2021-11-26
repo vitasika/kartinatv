@@ -18,7 +18,7 @@
 .kino__pic{
   width: 96px;
   height: 64px;
-  border-radius: 2px;  
+  border-radius: 2px;
 }
 
 .kino__h2{
@@ -48,9 +48,13 @@
   position: relative;  
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), display 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  // &:hover .kino__pic-start, &:focus .kino__pic-start{
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #E00A1E;
+  // }
+
   &:hover .kino__pic-start, &:focus .kino__pic-start{
     box-shadow: 0 1.25rem 3rem -1.25rem #E00A1E;
-    display: none;        
+    display: none;
   }
   
   &:hover .kino__pic-ivi, &:focus .kino__pic-ivi{

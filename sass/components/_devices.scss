@@ -1,4 +1,9 @@
-.clients__list {
+.devices__list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     @media screen and (max-width: 479px) {
         display: flex;
         flex-wrap: wrap;
@@ -102,4 +107,10 @@
         width: calc((100% - 2 * 15px) / 1);
         margin: 15px;
     }
+}
+
+.devices_header {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

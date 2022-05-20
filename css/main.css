@@ -216,6 +216,7 @@ textarea {
 }
 
 .devices__list {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,9 +322,10 @@ textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 4px;
-  background-color: #213a92;
+  background-color: #922187;
   padding: 0;
   margin: 0;
+  z-index: 2;
 }
 
 .clients__btn:hover, .clients__btn:focus {

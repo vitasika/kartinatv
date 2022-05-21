@@ -1,5 +1,5 @@
 .kinozal {  
-  background: #1f1a1a;
+  background: #1C1413;
   color: #ffffff;
   
   @media screen and (min-width: 1200px) {
@@ -13,27 +13,43 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 52px;
 }
 
 .kino__pic{
   width: 96px;
   height: 64px;
   border-radius: 2px;
-  
-
- 
-
-  
 }
 
 .kino__h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;    
   font-size: 48px;
-  margin-bottom: 18px;
+  margin-bottom: 52px;
+  text-align: center;
 }
 
 .kino__position{
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  // display: flex;
+  // justify-content: center;
+}
+
+.kino_title{
+  max-width: 738px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 137.5%;
+    /* or 33px */  
+  text-align: center;  
+  color: #9B9D9F;
+  margin-bottom: 93px;
 }
 
 .kino__pic-start, 

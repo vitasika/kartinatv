@@ -1,5 +1,5 @@
 .kinozal {
-  background: #1f1a1a;
+  background: #1C1413;
   color: #ffffff;
 }
 
@@ -19,6 +19,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 52px;
 }
 
 .kino__pic {
@@ -28,17 +29,31 @@
 }
 
 .kino__h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 48px;
-  margin-bottom: 18px;
+  margin-bottom: 52px;
+  text-align: center;
 }
 
 .kino__position {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
+}
+
+.kino_title {
+  max-width: 738px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 137.5%;
+  /* or 33px */
+  text-align: center;
+  color: #9B9D9F;
+  margin-bottom: 93px;
 }
 
 .kino__pic-start,
@@ -212,6 +227,9 @@ textarea {
       align-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #1C1413;
 }
 
@@ -225,6 +243,7 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #1C1413;
 }
 
 @media screen and (max-width: 479px) {
@@ -274,7 +293,7 @@ textarea {
 
 .clients__nane {
   height: 92px;
-  background: #ffffff;
+  background: #1C1413;
 }
 
 @media screen and (max-width: 479px) {

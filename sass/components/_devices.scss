@@ -3,6 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: #1C1413;
+    
 
     @media screen and (max-width: 479px) {
         display: flex;
@@ -31,7 +33,7 @@
 
 .clients__nane {
     height: 92px;
-    background: #ffffff;
+    background: #1C1413;
 
     @media screen and (max-width: 479px) {
         flex-basis: calc((100% - 4 * 15px) / 2);

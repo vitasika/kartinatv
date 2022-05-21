@@ -23,7 +23,7 @@
   border-radius: 2px;
 }
 
-.kino__h2{
+.kino__h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;    
@@ -32,7 +32,7 @@
   text-align: center;
 }
 
-.kino__position{
+.kino__position {
   text-align: center;
   // display: flex;
   // justify-content: center;
@@ -53,14 +53,7 @@
   margin-bottom: 93px;
 }
 
-.kino__pic-start, 
-.kino__pic-ivi, 
-.kino__pic-more, 
-.kino__pic-megogo, 
-.kino__pic-okko, 
-.kino__pic-premier, 
-.kino__pic-tvoekino, 
-.kino__pic-armenia{
+.kino__pic{
   width: 96px;
   height: 64px;
   position: absolute;
@@ -83,7 +76,8 @@
   }
 }
 
-.kino__item{
+.kino__item {
+  width: 100px;
   position: relative;
   margin: 15px;
   overflow: hidden;
@@ -96,50 +90,48 @@
   //   // transform: translateY(0);
   // }
   
-  &:hover .kino__pic-ivi, 
-  &:focus .kino__pic-ivi{
-    box-shadow: 0 1.25rem 3rem -1.25rem #EC174F;
-    // display: none;
-  }
+  // &:hover .kino__pic-ivi, 
+  // &:focus .kino__pic-ivi{
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #EC174F;
+  //   // display: none;
+  // }
 
-  &:hover .kino__pic-more, 
-  &:focus .kino__pic-more{
-    box-shadow: 0 1.25rem 3rem -1.25rem #FFFFFF;
-    // display: none;
-  }
+  // &:hover .kino__pic-more, 
+  // &:focus .kino__pic-more{
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #FFFFFF;
+  //   // display: none;
+  // }
   
-  &:hover .kino__pic-megogo, 
-  &:focus .kino__pic-megogo{
-    box-shadow: 0 1.25rem 3rem -1.25rem #22C3B1;
-    // display: none;
-  }
+  // &:hover .kino__pic-megogo, 
+  // &:focus .kino__pic-megogo{
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #22C3B1;
+  //   // display: none;
+  // }
   
-  &:hover .kino__pic-okko, 
-  &:focus .kino__pic-okko{
-    box-shadow: 0 1.25rem 3rem -1.25rem #4F1E80;
-    // display: none;
+  // &:hover .kino__pic-okko, 
+  // &:focus .kino__pic-okko{
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #4F1E80;
+  //   // display: none;
     
-  }
+  // }
   
-  &:hover .kino__pic-premier, 
-  &:focus .kino__pic-premier{
-    box-shadow: 0 1.25rem 3rem -1.25rem #FECB7C;
-    // display: none;
-  }
+  // &:hover .kino__pic-premier, 
+  // &:focus .kino__pic-premier {
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #FECB7C;
+  //   // display: none;
+  // }
   
-  &:hover .kino__pic-tvoekino, 
-  &:focus .kino__pic-tvoekino{
-    box-shadow: 0 1.25rem 3rem -1.25rem #BFCC42;
-    // display: none;
-  }
+  // &:hover .kino__pic-tvoekino, 
+  // &:focus .kino__pic-tvoekino {
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #BFCC42;
+  //   // display: none;
+  // }
   
-  &:hover .kino__pic-armenia, 
-  &:focus .kino__pic-armenia{
-    box-shadow: 0 1.25rem 3rem -1.25rem #F1A828;
-    // display: none;
-  }
-
-
+  // &:hover .kino__pic-armenia, 
+  // &:focus .kino__pic-armenia{
+  //   box-shadow: 0 1.25rem 3rem -1.25rem #F1A828;
+  //   // display: none;
+  // }
 }
 
 

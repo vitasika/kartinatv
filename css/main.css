@@ -91,9 +91,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(#000)), #2c2525;
-  background: linear-gradient(0deg, #000, #000), #2c2525;
+  font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -161,6 +159,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -363,26 +362,28 @@ textarea {
 
 .hero_title {
   max-width: 875px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
+  line-height: 1.37;
   text-align: center;
   color: #FFFFFF;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
+  margin: 50px auto;
 }
 
 .hero_description {
   max-width: 740px;
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 24px;
   text-align: center;
   color: #9B9D9F;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.37;
 }
 
 .hero_description span {
@@ -390,6 +391,7 @@ textarea {
 }
 
 .hero_button {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;

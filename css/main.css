@@ -144,8 +144,8 @@ textarea {
   margin-right: auto;
   height: 690px;
   color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(../../img/hero/hero.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../../img/hero/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(../img/hero/hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

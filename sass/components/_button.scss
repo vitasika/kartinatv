@@ -3,7 +3,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    // line-height: 137.5%;
     text-align: center;    
     color: #FFFFFF;
     padding: 20px 18px;
@@ -14,13 +13,7 @@
     &:hover,
     &:focus {
         background-color: #f40;
+        // border-color: #FF6600;
         cursor: pointer;
-        // border-color: #cc5200;
-        // box-shadow: 0 0 0 0 rgb(255 125 38 / 50%);
     }
 }
-
-// color 0.15s ease-in-out,
-// background-color 0.15s ease-in-out,
-// border-color 0.15s ease-in-out,
-// box-shadow 0.15s ease-in-out

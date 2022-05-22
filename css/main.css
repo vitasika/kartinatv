@@ -161,6 +161,10 @@ textarea {
   background: #1C1413;
 }
 
+.devices_background {
+  background-color: #343a40;
+}
+
 .devices__list {
   margin-top: 50px;
   display: -webkit-box;

@@ -1,10 +1,10 @@
 .hero {
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: center;    
     // max-width: 1440px;
-    // margin-left: auto;
-    // margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 690px;
     color: #ffffff;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),
@@ -15,11 +15,11 @@
 }
 
 .hero_title {
-    max-width: 875px;
+    // max-width: 875px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.37;
     text-align: center;    
     color: #FFFFFF;
@@ -30,11 +30,11 @@
 }
 
 .hero_description {
-    max-width: 740px;
+    max-width: 554px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     color: #9B9D9F;
     margin-bottom: 50px;

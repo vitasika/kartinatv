@@ -353,7 +353,7 @@ textarea {
   padding: 40px 0;
 }
 
-.card-wrapper {
+.subscription-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +370,7 @@ textarea {
   color: #000000;
 }
 
-.card {
+.subscription-card {
   width: calc((100% - 8 * 15px) / 4);
   margin: 15px;
   padding: 20px;
@@ -402,7 +402,7 @@ textarea {
   overflow: hidden;
 }
 
-.card:hover, .card:focus {
+.subscription-card:hover, .subscription-card:focus {
   -webkit-box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
           box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(0, -5px), scale(1);

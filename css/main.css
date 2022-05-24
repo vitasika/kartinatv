@@ -333,6 +333,46 @@ textarea {
   margin-bottom: 40px;
 }
 
+.subscription_conteiner {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -15px;
+}
+
+.card {
+  width: calc((100% - 8 * 15px) / 4);
+  margin: 15px;
+  padding: 20px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.card:hover, .card:focus {
+  -webkit-box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
+}
+
 .hero_button {
   font-family: 'Roboto';
   font-style: normal;

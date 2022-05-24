@@ -1,4 +1,4 @@
-.headerbox{
+.header{
     width: 100%;
     color: #ffffff;
     border-bottom: #9b9d9f solid 1px;
@@ -10,12 +10,17 @@
     // background: transparent;
 }
 
-.header {
+.headerbox {
     display: flex;
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.header__hidden {
+    text-align: center;
+    display: none;
 }
 
 .headerlogo {

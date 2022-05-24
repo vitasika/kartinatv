@@ -133,7 +133,7 @@
 }
 
 .kino__h2 {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -149,7 +149,7 @@
   max-width: 738px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Gilroy';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -214,7 +214,7 @@ h6,
 ul,
 p {
   margin: 0;
-  font-weight: 600px;
+  font-weight: 700px;
   line-height: 1.166;
 }
 
@@ -249,12 +249,27 @@ textarea {
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1200px;
+    width: 1440px;
   }
+}
+
+.devices {
+  padding: 30px 0;
+  background: #1C1413;
+  color: #ffffff;
 }
 
 .devices_background {
   background-color: #343a40;
+}
+
+.devices__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .devices__list {
@@ -334,16 +349,25 @@ textarea {
   margin-bottom: 40px;
 }
 
-.subscription_conteiner {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.subscription {
+  padding: 40px 0;
 }
 
 .card-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: -15px;
+  margin-bottom: 90px;
+}
+
+.subscription__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #000000;
 }
 
 .card {
@@ -365,6 +389,8 @@ textarea {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-transition: all 250ms;
   transition: all 250ms;
   -webkit-box-align: center;
@@ -387,13 +413,13 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 8px;
 }
 
 .card_price {
   color: #ff6600;
-  font-size: 2.25rem;
+  font-size: 36px;
   font-family: 'Roboto';
   font-weight: 400;
   line-height: 1.167;
@@ -404,6 +430,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 16px 32px;
 }
 
 .hero_button {

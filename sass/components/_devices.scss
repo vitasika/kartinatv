@@ -1,6 +1,21 @@
-.devices_background
-{
+.devices{
+    padding: 30px 0;
+    background: #1C1413;
+    color: #ffffff;
+}
+
+.devices_background {
     background-color: #343a40;
+}
+
+.devices__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    // margin-bottom: 80px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .devices__list {

@@ -362,8 +362,13 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 16px;
+  border: #9b9d9f45 solid 1px;
 }
 
 .card:hover, .card:focus {

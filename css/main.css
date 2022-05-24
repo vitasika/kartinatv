@@ -118,6 +118,7 @@
 .kinozal {
   background: #1C1413;
   color: #ffffff;
+  padding: 35px 0;
 }
 
 .kino__list {
@@ -134,8 +135,8 @@
 .kino__h2 {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 50px;
   margin-bottom: 52px;
   text-align: center;
 }
@@ -177,7 +178,7 @@
 }
 
 .kino__item {
-  width: 100px;
+  width: 110px;
   position: relative;
   margin: 15px;
   overflow: hidden;

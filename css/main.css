@@ -28,8 +28,13 @@
           align-items: center;
 }
 
+.header__hidden {
+  text-align: center;
+  display: none;
+}
+
 .headerlogo {
-  width: 120px;
+  width: 160px;
 }
 
 .headertel {

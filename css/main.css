@@ -369,13 +369,15 @@ textarea {
           align-items: center;
   border-radius: 16px;
   border: #9b9d9f45 solid 1px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .card:hover, .card:focus {
   -webkit-box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
           box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translate(0, -5px);
-          transform: translate(0, -5px);
+  -webkit-transform: translate(0, -5px), scale(1);
+          transform: translate(0, -5px), scale(1);
 }
 
 .hero_button {

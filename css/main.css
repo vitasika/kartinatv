@@ -238,6 +238,7 @@ textarea {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  position: relative;
 }
 
 @media screen and (min-width: 480px) {
@@ -275,6 +276,12 @@ textarea {
   font-size: 50px;
   text-align: center;
   color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  z-index: 1;
 }
 
 .devices__list {

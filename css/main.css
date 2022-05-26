@@ -383,7 +383,8 @@ textarea {
 }
 
 .subscription-card {
-  width: calc((100% - 8 * 15px) / 4);
+  width: 320px;
+  height: 426px;
   margin: 15px;
   padding: 20px;
   background: #ffffff;

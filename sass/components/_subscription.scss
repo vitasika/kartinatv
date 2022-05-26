@@ -21,9 +21,11 @@
     color: #000000;
 }
 
-// .subscription__card {
+.subscription-card img {
+    border-radius: 10px;;
+    border: #9b9d9f45 solid 2px;
 
-// }
+}
 
 .subscription-card {
     // width: calc((100% - 8 * 15px) / 4);

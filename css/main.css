@@ -382,6 +382,11 @@ textarea {
   color: #000000;
 }
 
+.subscription-card img {
+  border-radius: 10px;
+  border: #9b9d9f45 solid 2px;
+}
+
 .subscription-card {
   width: 320px;
   height: 426px;
@@ -444,6 +449,47 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   padding: 16px 32px;
+}
+
+.footer {
+  background: #1b1213;
+  color: #ffffff;
+  border-top: #9b9d9f solid 1px;
+}
+
+.footer_position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_list li:not(:last-child) {
+  padding-left: 20px;
+}
+
+.footer_img {
+  width: 112px;
+  height: 25px;
+}
+
+.footer_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.5%;
 }
 
 .hero_button {

@@ -1,0 +1,32 @@
+.footer{
+    background: #1b1213;
+    color: #ffffff;
+    border-top: #9b9d9f solid 1px;
+}
+
+.footer_position{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_list{
+    display: flex;
+    & li:not(:last-child) {
+            padding-left: 20px;
+        }
+}
+
+
+.footer_img{
+    width: 112px;
+    height: 25px;
+}
+
+.footer_text{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 137.5%;
+}

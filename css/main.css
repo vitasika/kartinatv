@@ -127,8 +127,8 @@
 }
 
 .masonry {
-  -webkit-columns: 3;
-          columns: 3;
+  -webkit-columns: 4;
+          columns: 4;
   -webkit-column-gap: 16px;
           column-gap: 16px;
 }
@@ -140,10 +140,17 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .masonry {
     -webkit-columns: 2;
             columns: 2;
+  }
+}
+
+@media (max-width: 500px) {
+  .masonry {
+    -webkit-columns: 1;
+            columns: 1;
   }
 }
 
@@ -166,7 +173,7 @@
 
 .masonry .grid img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .masonry .grid__title {

@@ -176,14 +176,22 @@
 }
 
 .masonry .grid__title {
-  font-size: 28px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.01;
   font-weight: bold;
   margin: 0px 0px 10px 0px;
 }
 
 .masonry .grid__author {
-  font-size: 14px;
-  font-weight: 300;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.37;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .masonry .grid__link {
@@ -212,15 +220,20 @@
 }
 
 .masonry .grid__tag {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #f60;
+  color: #fff;
   border-radius: 5px;
   padding: 5px 15px;
   margin-bottom: 5px;
 }
 
 .mt-auto {
-  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 
 .kinozal {

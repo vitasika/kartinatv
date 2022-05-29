@@ -541,6 +541,10 @@ textarea {
   fill: #F60;
 }
 
+.clients__logo:active {
+  fill: #FFF;
+}
+
 .devices_header {
   font-size: 28px;
   margin-top: 40px;

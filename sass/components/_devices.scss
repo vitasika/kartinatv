@@ -27,7 +27,7 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     // background: #1C1413;
     
 
@@ -52,6 +52,7 @@
     @media screen and (min-width: 1200px) {
         display: flex;
         margin: 0px;
+        justify-content: space-evenly;
     }
 }
 

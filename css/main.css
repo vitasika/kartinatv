@@ -291,10 +291,18 @@
   border-radius: 4px;
   width: 100%;
   height: 100%;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
   opacity: 0;
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .kino__pic:hover, .kino__pic:focus {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
   opacity: 1;
 }
 
@@ -324,17 +332,52 @@
           transform: translateY(100%);
 }
 
-.project__overlay:hover, .project__overlay:focus {
-  -webkit-box-shadow: 0 1.25rem 3rem -1.25rem #E00A1E;
-          box-shadow: 0 1.25rem 3rem -1.25rem #E00A1E;
-}
-
 .project__link_start:hover .project__overlay,
 .project__link_start:focus .project__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-box-shadow: 0px 20px 48px #E00A1E;
-          box-shadow: 0px 20px 48px #E00A1E;
+}
+
+.project__link_ivi:hover .project__overlay,
+.project__link_ivi:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.project__link_more:hover .project__overlay,
+.project__link_more:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.project__link_megogo:hover .project__overlay,
+.project__link_megogo:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.project__link_okko:hover .project__overlay,
+.project__link_okko:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.project__link_premier:hover .project__overlay,
+.project__link_premier:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.project__link_tvoekino:hover .project__overlay,
+.project__link_tvoekino:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.project__link_armenia:hover .project__overlay,
+.project__link_armenia:focus .project__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 body {

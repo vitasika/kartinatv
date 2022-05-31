@@ -584,6 +584,12 @@ textarea {
   z-index: 1;
 }
 
+@media screen and (min-width: 768px) {
+  .devices__title {
+    font-size: 35px;
+  }
+}
+
 .devices__list {
   margin-top: 50px;
   display: -webkit-box;
@@ -626,6 +632,7 @@ textarea {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
+    margin-top: 20px;
   }
 }
 
@@ -813,11 +820,23 @@ textarea {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .console {
+    padding: 60px 0;
+  }
+}
+
 .console_img {
   width: 170px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .console_img {
+    width: 150px;
+  }
 }
 
 .console_title {
@@ -836,6 +855,12 @@ textarea {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .console_eva {
+    width: 500px;
+  }
+}
+
 .console_header {
   font-family: 'Roboto';
   font-style: normal;
@@ -843,6 +868,13 @@ textarea {
   font-size: 50px;
   line-height: 1.37;
   margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .console_header {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
 }
 
 .console_description {
@@ -853,6 +885,13 @@ textarea {
   line-height: 1.37;
   color: #9B9D9F;
   margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .console_description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
 }
 
 .footer {

@@ -681,6 +681,12 @@ textarea {
   margin-bottom: 90px;
 }
 
+@media screen and (min-width: 768px) {
+  .subscription-wrapper {
+    margin: -10px;
+  }
+}
+
 .subscription__title {
   font-family: 'Roboto';
   font-style: normal;
@@ -704,7 +710,6 @@ textarea {
 }
 
 .subscription-card {
-  width: 320px;
   height: 426px;
   margin: 15px;
   padding: 20px;
@@ -743,12 +748,28 @@ textarea {
           transform: translate(0, -5px), scale(1);
 }
 
+@media screen and (min-width: 768px) {
+  .subscription-card {
+    height: 235px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
 .text_card {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .text_card {
+    font-size: 12px;
+    margin-right: 10px;
+  }
 }
 
 .card_price {
@@ -760,11 +781,29 @@ textarea {
   letter-spacing: 0.006em;
 }
 
+@media screen and (min-width: 768px) {
+  .card_price {
+    font-size: 22px;
+  }
+}
+
 .card_position {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 16px 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .card_position {
+    padding: 0 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card_position {
+    padding: 16px 32px;
+  }
 }
 
 .console {
@@ -901,6 +940,53 @@ textarea {
     font-size: 16px;
     padding: 14px 20px;
     width: 220px;
+  }
+}
+
+.subscription_button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  width: 256px;
+  background-color: #F60;
+  border-color: #F60;
+  border: 1px solid transparent;
+  overflow: hidden;
+  border-radius: 7px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription_button:hover {
+  background-color: #f40;
+  border-color: #cc5200;
+  cursor: pointer;
+}
+
+.subscription_button:focus {
+  color: #ffffff;
+  background-color: #d95700;
+  border-color: #cc5200;
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 125, 38, 0.5);
+          box-shadow: 0 0 0 0 rgba(255, 125, 38, 0.5);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .subscription_button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscription_button {
+    font-size: 12px;
+    padding: 10px 20px;
+    width: 120px;
   }
 }
 /*# sourceMappingURL=main.css.map */

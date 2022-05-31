@@ -10,6 +10,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 20px 0;
 }
 
 .headerbox {
@@ -55,7 +56,6 @@
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
-  padding: 30px 0;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -677,6 +677,13 @@ textarea {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .devices_header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .subscription {
   padding: 40px 0;
 }
@@ -898,6 +905,7 @@ textarea {
   background: #1b1213;
   color: #ffffff;
   border-top: #9b9d9f solid 1px;
+  padding: 20px 0;
 }
 
 .footer_position {
@@ -924,7 +932,12 @@ textarea {
 
 .footer_img {
   width: 112px;
-  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_img {
+    width: 100px;
+  }
 }
 
 .footer_text {
@@ -932,7 +945,13 @@ textarea {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 137.5%;
+  line-height: 1.37;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_text {
+    font-size: 14px;
+  }
 }
 
 .hero_button {

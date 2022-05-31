@@ -2,6 +2,7 @@
     background: #1b1213;
     color: #ffffff;
     border-top: #9b9d9f solid 1px;
+    padding: 20px 0;
 }
 
 .footer_position {
@@ -12,14 +13,47 @@
 
 .footer_list {
     display: flex;
+
     & li:not(:last-child) {
         padding-left: 20px;
+    }
+
+    @media screen and (max-width: 479px) {
+        
+    }
+
+    @media screen and (min-width: 480px) {
+        
+    }
+
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        
     }
 }
 
 .footer_img {
     width: 112px;
-    height: 25px;
+    // height: 25px;
+
+    @media screen and (max-width: 479px) {
+        
+    }
+
+    @media screen and (min-width: 480px) {
+        
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 100px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+    }
 }
 
 .footer_text {
@@ -27,5 +61,21 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 137.5%;
+    line-height: 1.37;
+
+    @media screen and (max-width: 479px) {
+        
+    }
+
+    @media screen and (min-width: 480px) {
+        
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+    }
 }

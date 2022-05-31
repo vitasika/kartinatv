@@ -127,6 +127,12 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 600px;
+  }
+}
+
 .hero_title {
   font-family: 'Roboto';
   font-style: normal;
@@ -213,7 +219,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .masonry {
     -webkit-columns: 1;
             columns: 1;
@@ -252,6 +258,13 @@
   margin: 0px 0px 10px 0px;
 }
 
+@media screen and (min-width: 768px) {
+  .masonry .grid__title {
+    font-size: 20px;
+    margin: 0px 0px 8px 0px;
+  }
+}
+
 .masonry .grid__author {
   font-family: 'Roboto';
   font-style: normal;
@@ -259,6 +272,12 @@
   font-size: 14px;
   line-height: 1.37;
   color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .masonry .grid__author {
+    font-size: 14px;
+  }
 }
 
 .masonry .grid__link {
@@ -286,6 +305,12 @@
           flex-direction: column;
 }
 
+@media screen and (min-width: 768px) {
+  .masonry .grid__body {
+    padding: 25px 25px;
+  }
+}
+
 .masonry .grid__tag {
   font-family: 'Roboto';
   font-weight: 600;
@@ -296,6 +321,13 @@
   border-radius: 5px;
   padding: 5px 15px;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .masonry .grid__tag {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
 }
 
 .mt-auto {

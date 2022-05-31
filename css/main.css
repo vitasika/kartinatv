@@ -381,7 +381,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.37;
-  /* or 33px */
   text-align: center;
   color: #9B9D9F;
   margin-bottom: 93px;
@@ -414,7 +413,7 @@
 
 @media screen and (min-width: 768px) {
   .kino__item {
-    margin: 7px;
+    margin: 10px;
   }
 }
 

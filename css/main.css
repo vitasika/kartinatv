@@ -276,7 +276,7 @@
 
 @media screen and (min-width: 768px) {
   .masonry .grid__author {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -361,6 +361,13 @@
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .kino__h2 {
+    font-size: 35px;
+    margin-bottom: 45px;
+  }
+}
+
 .kino__position {
   text-align: center;
 }
@@ -380,6 +387,14 @@
   margin-bottom: 93px;
 }
 
+@media screen and (min-width: 768px) {
+  .kino_title {
+    font-size: 15px;
+    margin-bottom: 40px;
+    max-width: 538px;
+  }
+}
+
 .kino__item {
   width: 96px;
   height: 69px;
@@ -395,6 +410,12 @@
 .kino__item:hover, .kino__item:focus {
   -webkit-box-shadow: 0 2.25rem 4rem -1.25rem #E00A1E;
           box-shadow: 0 2.25rem 4rem -1.25rem #E00A1E;
+}
+
+@media screen and (min-width: 768px) {
+  .kino__item {
+    margin: 7px;
+  }
 }
 
 .project__overlay {

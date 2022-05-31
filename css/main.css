@@ -691,6 +691,13 @@ textarea {
   color: #000000;
 }
 
+@media screen and (min-width: 768px) {
+  .subscription__title {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+}
+
 .subscription-card img {
   border-radius: 10px;
   border: #9b9d9f45 solid 2px;

@@ -2,17 +2,17 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;    
     color: #FFFFFF;
-    padding: 15px 20px;
-    width: 256px;
+    padding: 7px 10px;
+    width: 140px;
     background-color: #F60;
     border-color: #F60;
     // background-color: transparent;
     border: 1px solid transparent;
     overflow: hidden;
-    border-radius: 7px;
+    border-radius: 3px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {        
@@ -41,10 +41,12 @@
         font-size: 16px;
         padding: 14px 20px;
         width: 220px;
+        border-radius: 7px;
     }
     
     @media screen and (min-width: 1200px) {
-        
+        padding: 15px 20px;
+        width: 256px;
     }
 }
 

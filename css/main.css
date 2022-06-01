@@ -176,7 +176,6 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  height: 690px;
   color: #ffffff;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(../img/hero/hero.jpg);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hero/hero.jpg);
@@ -185,9 +184,27 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 479px) {
+  .hero {
+    padding: 70px 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    height: 600px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     height: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 690px;
   }
 }
 
@@ -195,11 +212,10 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  margin-bottom: 30px;
   line-height: 1.37;
   text-align: center;
   color: #FFFFFF;
-  margin: 50px auto;
 }
 
 @media screen and (max-width: 479px) {
@@ -217,18 +233,25 @@
 @media screen and (min-width: 768px) {
   .hero_title {
     font-size: 35px;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero_title {
+    font-size: 40px;
   }
 }
 
 .hero_description {
-  max-width: 554px;
+  max-width: 240px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 11px;
   text-align: center;
   color: #9B9D9F;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.37;
@@ -243,6 +266,7 @@
 @media screen and (min-width: 768px) {
   .hero_description {
     font-size: 18px;
+    max-width: 554px;
   }
 }
 
@@ -1034,16 +1058,16 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   color: #FFFFFF;
-  padding: 15px 20px;
-  width: 256px;
+  padding: 7px 10px;
+  width: 140px;
   background-color: #F60;
   border-color: #F60;
   border: 1px solid transparent;
   overflow: hidden;
-  border-radius: 7px;
+  border-radius: 3px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1074,6 +1098,14 @@ textarea {
     font-size: 16px;
     padding: 14px 20px;
     width: 220px;
+    border-radius: 7px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero_button {
+    padding: 15px 20px;
+    width: 256px;
   }
 }
 

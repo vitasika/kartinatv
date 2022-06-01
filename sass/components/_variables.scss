@@ -61,6 +61,10 @@ textarea {
   padding-right: 15px;
   position: relative;
 
+  @media screen and (max-width: 479px) {
+    width: 320px;
+  }
+
   @media screen and (min-width: 480px) {
     width: 480px;
   }

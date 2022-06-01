@@ -5,11 +5,9 @@
     text-align: center;
 
     @media screen and (max-width: 479px) {
-        
     }
 
     @media screen and (min-width: 480px) {
-        
     }
 
     @media screen and (min-width: 768px) {
@@ -17,22 +15,19 @@
     }
 
     @media screen and (min-width: 1200px) {
-        
     }
 }
 
-.console_img{
+.console_img {
     width: 170px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
 
     @media screen and (max-width: 479px) {
-        
     }
 
     @media screen and (min-width: 480px) {
-        
     }
 
     @media screen and (min-width: 768px) {
@@ -40,12 +35,10 @@
     }
 
     @media screen and (min-width: 1200px) {
-        
     }
-
 }
 
-.console_title{
+.console_title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -54,18 +47,18 @@
     margin-bottom: 60px;
 }
 
-.console_eva{
+.console_eva {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
 
     @media screen and (max-width: 479px) {
-        
+        width: 250px;
     }
 
     @media screen and (min-width: 480px) {
-        
+        width: 350px;
     }
 
     @media screen and (min-width: 768px) {
@@ -73,11 +66,10 @@
     }
 
     @media screen and (min-width: 1200px) {
-        
     }
 }
 
-.console_header{
+.console_header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -86,11 +78,9 @@
     margin-bottom: 35px;
 
     @media screen and (max-width: 479px) {
-        
     }
 
     @media screen and (min-width: 480px) {
-        
     }
 
     @media screen and (min-width: 768px) {
@@ -99,33 +89,29 @@
     }
 
     @media screen and (min-width: 1200px) {
-        
     }
 }
 
-.console_description{
+.console_description {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 1.37;    
-        color: #9B9D9F;
-        margin-bottom: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.37;
+    color: #9b9d9f;
+    margin-bottom: 35px;
 
-        @media screen and (max-width: 479px) {
-        
-        }
-    
-        @media screen and (min-width: 480px) {
-            
-        }
-    
-        @media screen and (min-width: 768px) {
-            font-size: 16px;
-            margin-bottom: 25px;
-        }
-    
-        @media screen and (min-width: 1200px) {
-            
-        }
+    @media screen and (max-width: 479px) {
+    }
+
+    @media screen and (min-width: 480px) {
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    }
 }

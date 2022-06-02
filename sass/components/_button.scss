@@ -57,8 +57,7 @@
     font-size: 20px;
     text-align: center;    
     color: #FFFFFF;
-    padding: 15px 20px;
-    width: 256px;
+    padding: 10px 40px;
     background-color: #F60;
     border-color: #F60;
     // background-color: transparent;
@@ -96,6 +95,7 @@
     }
     
     @media screen and (min-width: 1200px) {
-        
+        padding: 15px 20px;
+        width: 256px;
     }
 }

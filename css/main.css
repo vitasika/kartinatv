@@ -666,6 +666,13 @@ textarea {
   padding: 30px 0;
   background: #1b1213;
   color: #ffffff;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .devices {
+    font-size: 35px;
+  }
 }
 
 .devices_background {
@@ -795,7 +802,10 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 90px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -804,12 +814,18 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .subscription-wrapper {
+    margin-bottom: 90px;
+  }
+}
+
 .subscription__title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  margin-bottom: 80px;
+  font-size: 20px;
+  margin-bottom: 30px;
   text-align: center;
   color: #000000;
 }
@@ -821,13 +837,19 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .subscription__title {
+    font-size: 50px;
+    margin-bottom: 80px;
+  }
+}
+
 .subscription-card img {
   border-radius: 10px;
   border: #9b9d9f45 solid 2px;
 }
 
 .subscription-card {
-  height: 426px;
   margin: 15px;
   padding: 20px;
   background: #ffffff;
@@ -874,24 +896,55 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .subscription-card {
+    height: 426px;
+  }
+}
+
+.card_position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card_position {
+    padding: 0 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card_position {
+    padding: 16px 32px;
+  }
+}
+
 .text_card {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
   margin-right: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .text_card {
-    font-size: 12px;
     margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text_card {
+    font-size: 18px;
+    margin-right: 8px;
   }
 }
 
 .card_price {
   color: #ff6600;
-  font-size: 36px;
+  font-size: 30px;
   font-family: 'Roboto';
   font-weight: 400;
   line-height: 1.167;
@@ -904,22 +957,9 @@ textarea {
   }
 }
 
-.card_position {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 16px 32px;
-}
-
-@media screen and (min-width: 768px) {
-  .card_position {
-    padding: 0 0;
-  }
-}
-
 @media screen and (min-width: 1200px) {
-  .card_position {
-    padding: 16px 32px;
+  .card_price {
+    font-size: 36px;
   }
 }
 
@@ -1131,8 +1171,7 @@ textarea {
   font-size: 20px;
   text-align: center;
   color: #FFFFFF;
-  padding: 15px 20px;
-  width: 256px;
+  padding: 10px 40px;
   background-color: #F60;
   border-color: #F60;
   border: 1px solid transparent;
@@ -1168,6 +1207,13 @@ textarea {
     font-size: 12px;
     padding: 10px 20px;
     width: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscription_button {
+    padding: 15px 20px;
+    width: 256px;
   }
 }
 /*# sourceMappingURL=main.css.map */

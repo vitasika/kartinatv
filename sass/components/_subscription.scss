@@ -3,12 +3,8 @@
 }
 
 .subscription-wrapper {
-    // margin-right: 16px;
-    // perspective: 300px;
-    // perspective-origin: 50%;
     display: flex;
-    // margin: -15px;
-    margin-bottom: 90px;
+    flex-direction: column;
 
     @media screen and (max-width: 479px) {
         
@@ -23,16 +19,16 @@
     }
     
     @media screen and (min-width: 1200px) {
-        
+        margin-bottom: 90px;
     }
 }
 
-.subscription__title{
+.subscription__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    margin-bottom: 80px;
+    font-size: 20px;
+    margin-bottom: 30px;
     text-align: center;
     color: #000000;
 
@@ -50,7 +46,8 @@
     }
     
     @media screen and (min-width: 1200px) {
-        
+        font-size: 50px;
+        margin-bottom: 80px;
     }
 }
 
@@ -61,9 +58,7 @@
 }
 
 .subscription-card {
-    // width: calc((100% - 8 * 15px) / 4);
-    // width: 320px;
-    height: 426px;
+    // width: calc((100% - 8 * 15px) / 4);    
     margin: 15px;
     padding: 20px;
     background: #ffffff;
@@ -102,63 +97,13 @@
     }
     
     @media screen and (min-width: 1200px) {
-        
+        height: 426px;
     }
 }
 
-.text_card {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    margin-right: 8px;
-
-    @media screen and (max-width: 479px) {
-        
-    }
-    
-    @media screen and (min-width: 480px) {
-        
-    }
-    
-    @media screen and (min-width: 768px) {
-        font-size: 12px;
-        margin-right: 10px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        
-    }
-}
-
-.card_price{
-    color: rgb(255, 102, 0);
-    font-size: 36px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    line-height: 1.167;
-    letter-spacing: 0.006em;
-
-    @media screen and (max-width: 479px) {
-        
-    }
-    
-    @media screen and (min-width: 480px) {
-        
-    }
-    
-    @media screen and (min-width: 768px) {
-        font-size: 22px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        
-    }
-}
-
-.card_position{
+.card_position {
     display: flex;
-    padding: 16px 32px;
+    padding: 20px 0;
     // margin-right: 8px;
 
     @media screen and (max-width: 479px) {
@@ -177,3 +122,54 @@
         padding: 16px 32px;
     }
 }
+
+.text_card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 8px;
+
+    @media screen and (max-width: 479px) {
+        
+    }
+    
+    @media screen and (min-width: 480px) {
+        
+    }
+    
+    @media screen and (min-width: 768px) {
+        margin-right: 10px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+}
+
+.card_price {
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0.006em;
+
+    @media screen and (max-width: 479px) {
+        
+    }
+    
+    @media screen and (min-width: 480px) {
+        
+    }
+    
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
+}
+

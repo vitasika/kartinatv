@@ -964,7 +964,7 @@ textarea {
 }
 
 .console {
-  padding: 100px 0;
+  padding: 40px 0;
   background: #1b1213;
   color: #ffffff;
   text-align: center;
@@ -976,11 +976,17 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .console {
+    padding: 100px 0;
+  }
+}
+
 .console_img {
-  width: 170px;
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -989,20 +995,34 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .console_img {
+    width: 170px;
+    margin-bottom: 60px;
+  }
+}
+
 .console_title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 34px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .console_title {
+    font-size: 28px;
+    margin-bottom: 60px;
+  }
 }
 
 .console_eva {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 479px) {
@@ -1023,19 +1043,31 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .console_eva {
+    margin-bottom: 60px;
+  }
+}
+
 .console_header {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 22px;
   line-height: 1.37;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
   .console_header {
     font-size: 35px;
-    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .console_header {
+    font-size: 50px;
+    margin-bottom: 35px;
   }
 }
 
@@ -1043,16 +1075,22 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 1.37;
   color: #9b9d9f;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
   .console_description {
     font-size: 16px;
-    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .console_description {
+    font-size: 24px;
+    margin-bottom: 35px;
   }
 }
 
@@ -1117,7 +1155,7 @@ textarea {
   text-align: center;
   color: #FFFFFF;
   padding: 7px 10px;
-  width: 140px;
+  width: 138px;
   background-color: #F60;
   border-color: #F60;
   border: 1px solid transparent;
@@ -1168,7 +1206,7 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   color: #FFFFFF;
   padding: 10px 40px;

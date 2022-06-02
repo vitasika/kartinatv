@@ -396,12 +396,12 @@
 .masonry .grid__tag {
   font-family: 'Roboto';
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   background-color: #f60;
   color: #fff;
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 4px 12px;
   margin-bottom: 5px;
 }
 

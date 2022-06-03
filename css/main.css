@@ -1220,8 +1220,8 @@ textarea {
 }
 
 .width {
-  width: 190px;
-  height: 134px;
+  width: 96px;
+  height: 68px;
   margin: 15px;
 }
 
@@ -1240,6 +1240,7 @@ textarea {
 .ivi {
   display: block;
   background-image: url(../../img/kinozal/ivi.png);
+  background-size: cover;
 }
 
 .ivi:hover, .ivi:focus {
@@ -1251,6 +1252,7 @@ textarea {
 .more {
   display: block;
   background-image: url(../../img/kinozal/more.png);
+  background-size: cover;
 }
 
 .more:hover, .more:focus {
@@ -1262,6 +1264,7 @@ textarea {
 .megogo {
   display: block;
   background-image: url(../../img/kinozal/megogo.png);
+  background-size: cover;
 }
 
 .megogo:hover, .megogo:focus {
@@ -1273,6 +1276,7 @@ textarea {
 .okko {
   display: block;
   background-image: url(../../img/kinozal/okko.png);
+  background-size: cover;
 }
 
 .okko:hover, .okko:focus {
@@ -1284,6 +1288,7 @@ textarea {
 .premier {
   display: block;
   background-image: url(../../img/kinozal/premier.png);
+  background-size: cover;
 }
 
 .premier:hover, .premier:focus {
@@ -1295,6 +1300,7 @@ textarea {
 .tvoekino {
   display: block;
   background-image: url(../../img/kinozal/tvoekino.png);
+  background-size: cover;
 }
 
 .tvoekino:hover, .tvoekino:focus {
@@ -1306,6 +1312,7 @@ textarea {
 .armenia {
   display: block;
   background-image: url(../../img/kinozal/armenia.png);
+  background-size: cover;
 }
 
 .armenia:hover, .armenia:focus {

@@ -28,12 +28,14 @@
     }
 
     @media screen and (min-width: 768px) {
-    }
-
-    @media screen and (min-width: 1200px) {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+        
     }
 }
 
@@ -60,15 +62,12 @@
     }
 }
 
-.footer_img {
-    margin: 0 auto;
-    width: 90px;
+.footer_img {    
     // height: 25px;
 
-    @media screen and (max-width: 479px) {
-    }
-
-    @media screen and (min-width: 480px) {
+    @media screen and (max-width: 767px) {
+        margin: 0 auto;
+        width: 90px;
     }
 
     @media screen and (min-width: 768px) {

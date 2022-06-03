@@ -102,3 +102,100 @@
         font-size: 18px;
     }
 }
+
+
+
+.proba{
+    display: flex;
+}
+
+// .proba li {
+//     display: block; 
+// }
+
+.width {    
+    width: 190px;
+    height: 134px;
+    margin: 15px;
+}
+
+.start {
+    display: block;
+    background-image: url(../../img/kinozal/start.png);
+    background-size: cover;
+}
+
+.start:hover, .start:focus {
+    background-image: url(../../img/kinozal/start_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #E00A1E;
+}
+
+.ivi{
+    display: block;
+    background-image: url(../../img/kinozal/ivi.png);
+}
+
+.ivi:hover, .ivi:focus {
+    background-image: url(../../img/kinozal/ivi_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #EC174F;
+}
+
+.more{
+    display: block;
+    background-image: url(../../img/kinozal/more.png);
+}
+
+.more:hover, .more:focus {
+    background-image: url(../../img/kinozal/more_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #FFFFFF;
+}
+
+.megogo{
+    display: block;
+    background-image: url(../../img/kinozal/megogo.png);
+}
+
+.megogo:hover, .megogo:focus {
+    background-image: url(../../img/kinozal/megogo_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #22C3B1;
+}
+
+.okko{
+    display: block;
+    background-image: url(../../img/kinozal/okko.png);
+}
+
+.okko:hover, .okko:focus {
+    background-image: url(../../img/kinozal/okko_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #4F1E80;
+}
+
+.premier{
+    display: block;
+    background-image: url(../../img/kinozal/premier.png);
+}
+
+.premier:hover, .premier:focus {
+    background-image: url(../../img/kinozal/premier_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #FECB7C;
+}
+
+.tvoekino{
+    display: block;
+    background-image: url(../../img/kinozal/tvoekino.png);
+}
+
+.tvoekino:hover, .tvoekino:focus {
+    background-image: url(../../img/kinozal/tvoekino_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #BFCC42;
+}
+
+.armenia{
+    display: block;
+    background-image: url(../../img/kinozal/armenia.png);
+}
+
+.armenia:hover, .armenia:focus {
+    background-image: url(../../img/kinozal/armenia_h.png);
+    box-shadow: 0 2.25rem 4rem -1.25rem #F1A828;
+}

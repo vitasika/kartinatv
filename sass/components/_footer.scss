@@ -34,15 +34,12 @@
     }
 
     @media screen and (min-width: 1200px) {
-        
-        
     }
 }
 
 .footer_list {
     text-align: center;
     margin-bottom: 5px;
-    
 
     @media screen and (max-width: 479px) {
     }
@@ -57,12 +54,12 @@
         display: flex;
 
         & li:not(:last-child) {
-        padding-left: 20px;
-    }
+            padding-left: 20px;
+        }
     }
 }
 
-.footer_img {    
+.footer_img {
     // height: 25px;
 
     @media screen and (max-width: 767px) {
@@ -88,7 +85,6 @@
     margin-bottom: 5px;
 
     @media screen and (max-width: 479px) {
-
     }
 
     @media screen and (min-width: 480px) {
@@ -103,18 +99,16 @@
     }
 }
 
-
-
-.proba{
+.proba {
     display: flex;
     justify-content: space-between;
 }
 
 // .proba li {
-//     display: block; 
+//     display: block;
 // }
 
-.width {    
+.width {
     width: 96px;
     height: 68px;
     margin: 15px;
@@ -127,91 +121,99 @@
     background-repeat: no-repeat;
 }
 
-.start:hover, .start:focus {
+.start:hover,
+.start:focus {
     background-image: url(../../img/kinozal/start_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #E00A1E;
+    box-shadow: 0 2.25rem 4rem -1.25rem #e00a1e;
 }
 
-.ivi{
+.ivi {
     display: block;
     background-image: url(../../img/kinozal/ivi.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.ivi:hover, .ivi:focus {
+.ivi:hover,
+.ivi:focus {
     background-image: url(../../img/kinozal/ivi_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #EC174F;
+    box-shadow: 0 2.25rem 4rem -1.25rem #ec174f;
 }
 
-.more{
+.more {
     display: block;
     background-image: url(../../img/kinozal/more.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.more:hover, .more:focus {
+.more:hover,
+.more:focus {
     background-image: url(../../img/kinozal/more_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #FFFFFF;
+    box-shadow: 0 2.25rem 4rem -1.25rem #ffffff;
 }
 
-.megogo{
+.megogo {
     display: block;
     background-image: url(../../img/kinozal/megogo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.megogo:hover, .megogo:focus {
+.megogo:hover,
+.megogo:focus {
     background-image: url(../../img/kinozal/megogo_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #22C3B1;
+    box-shadow: 0 2.25rem 4rem -1.25rem #22c3b1;
 }
 
-.okko{
+.okko {
     display: block;
     background-image: url(../../img/kinozal/okko.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.okko:hover, .okko:focus {
+.okko:hover,
+.okko:focus {
     background-image: url(../../img/kinozal/okko_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #4F1E80;
+    box-shadow: 0 2.25rem 4rem -1.25rem #4f1e80;
 }
 
-.premier{
+.premier {
     display: block;
     background-image: url(../../img/kinozal/premier.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.premier:hover, .premier:focus {
+.premier:hover,
+.premier:focus {
     background-image: url(../../img/kinozal/premier_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #FECB7C;
+    box-shadow: 0 2.25rem 4rem -1.25rem #fecb7c;
 }
 
-.tvoekino{
+.tvoekino {
     display: block;
     background-image: url(../../img/kinozal/tvoekino.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.tvoekino:hover, .tvoekino:focus {
+.tvoekino:hover,
+.tvoekino:focus {
     background-image: url(../../img/kinozal/tvoekino_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #BFCC42;
+    box-shadow: 0 2.25rem 4rem -1.25rem #bfcc42;
 }
 
-.armenia{
+.armenia {
     display: block;
     background-image: url(../../img/kinozal/armenia.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.armenia:hover, .armenia:focus {
+.armenia:hover,
+.armenia:focus {
     background-image: url(../../img/kinozal/armenia_h.png);
-    box-shadow: 0 2.25rem 4rem -1.25rem #F1A828;
+    box-shadow: 0 2.25rem 4rem -1.25rem #f1a828;
 }

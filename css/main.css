@@ -863,10 +863,10 @@ textarea {
 
 .subscription-card img {
   border-radius: 10px;
-  border: #9b9d9f45 solid 2px;
 }
 
 .subscription-card {
+  width: calc((100% - 8 * 15px) / 4);
   margin: 15px;
   padding: 20px;
   background: #ffffff;
@@ -912,7 +912,6 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .subscription-card {
-    height: 235px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -921,7 +920,9 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .subscription-card {
-    height: 426px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
   }
 }
 
@@ -939,7 +940,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .card_position {
-    padding: 16px 0;
+    padding: 36px 0;
   }
 }
 
@@ -1308,8 +1309,9 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .subscription_button {
+    font-size: 16px;
     padding: 15px 20px;
-    width: 256px;
+    width: 200px;
   }
 }
 /*# sourceMappingURL=main.css.map */

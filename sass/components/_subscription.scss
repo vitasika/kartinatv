@@ -54,13 +54,12 @@
 }
 
 .subscription-card img {
-    border-radius: 10px;;
-    border: #9b9d9f45 solid 2px;
+    border-radius: 10px;
 
 }
 
 .subscription-card {
-    // width: calc((100% - 8 * 15px) / 4);    
+    width: calc((100% - 8 * 15px) / 4);
     margin: 15px;
     padding: 20px;
     background: #ffffff;
@@ -83,24 +82,27 @@
     
     @media screen and (min-width: 480px) {
         display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
     }
     
     @media screen and (min-width: 768px) {
         
         // width: 320px;
-        height: 235px;
+        // height: 235px;
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
     }
     
     @media screen and (min-width: 1200px) {
-        height: 426px;
+        // height: 426px;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
     }
 }
 
@@ -118,7 +120,7 @@
     // }
     
     @media screen and (min-width: 768px) {
-        padding: 16px 0;
+        padding: 36px 0;
     }
     
     @media screen and (min-width: 1200px) {

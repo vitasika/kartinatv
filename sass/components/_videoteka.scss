@@ -46,7 +46,7 @@
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 600;
-            font-size: 26px;
+            font-size: 16px;
             line-height: 1.01;
             font-weight: bold;
             margin: 0px 0px 10px 0px;
@@ -65,7 +65,8 @@
             }
             
             @media screen and (min-width: 1200px) {
-                
+                font-size: 24px;
+                margin: 0px 0px 8px 0px;
             }
         }
 
@@ -73,7 +74,7 @@
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 10px;
             line-height: 1.37;            
             color: rgba(255, 255, 255, 0.7);
 
@@ -155,7 +156,8 @@
             }
             
             @media screen and (min-width: 1200px) {
-                
+                font-size: 17px;
+                padding: 5px 10px;
             }
         }
     }

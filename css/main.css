@@ -334,7 +334,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 1.01;
   font-weight: bold;
   margin: 0px 0px 10px 0px;
@@ -347,11 +347,18 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .masonry .grid__title {
+    font-size: 24px;
+    margin: 0px 0px 8px 0px;
+  }
+}
+
 .masonry .grid__author {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.37;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -408,6 +415,13 @@
 @media screen and (min-width: 768px) {
   .masonry .grid__tag {
     font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .masonry .grid__tag {
+    font-size: 17px;
     padding: 5px 10px;
   }
 }
@@ -858,25 +872,9 @@ textarea {
   background: #ffffff;
   -webkit-box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
           box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
   border-radius: 16px;
   border: #9b9d9f45 solid 1px;
   cursor: pointer;
@@ -888,6 +886,28 @@ textarea {
           box-shadow: 0 14px 44px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(0, -5px), scale(1);
           transform: translate(0, -5px), scale(1);
+}
+
+@media screen and (min-width: 480px) {
+  .subscription-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -913,7 +933,7 @@ textarea {
 
 @media screen and (max-width: 767px) {
   .card_position {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 }
 
@@ -929,6 +949,7 @@ textarea {
   font-weight: 400;
   font-size: 16px;
   margin-right: 8px;
+  text-align: start;
 }
 
 @media screen and (min-width: 768px) {

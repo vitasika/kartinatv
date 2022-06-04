@@ -4,13 +4,6 @@
   padding: 35px 0;  
 }
 
-// .kino__list{
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   margin-bottom: 52px;
-// }
-
 .kino__h2 {
   font-family: 'Roboto';
   font-style: normal;
@@ -75,90 +68,11 @@
   }
 }
 
-// .kino__item {
-//   width: 96px;
-//   height: 69px;
-//   position: relative;
-//   overflow: hidden;
-//   margin: 5px;
-//   border-radius: 5px;
-//   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-//   &:hover,
-//   &:focus {
-//     box-shadow: 0 2.25rem 4rem -1.25rem #E00A1E;
-//   }
-
-//   @media screen and (max-width: 479px) {
-    
-//   }
-
-//   @media screen and (min-width: 480px) {
-      
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     margin: 10px;
-//   }
-  
-//   @media screen and (min-width: 1200px) {
-      
-//   }
-// }
-
-// .project__overlay {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   border: 0;
-//   padding: 0;
-//   transform: translateY(100%);
-//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .project__link_start,
-// .project__link_ivi,
-// .project__link_more,
-// .project__link_megogo,
-// .project__link_okko,
-// .project__link_premier,
-// .project__link_tvoekino,
-// .project__link_armenia {
-//   &:hover .project__overlay,
-//   &:focus .project__overlay {
-//     transform: translateY(0);
-//   }
-// }
-
-// .project__box {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   transform: translateY(0);
-//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-// .project__link_start,
-// .project__link_ivi,
-// .project__link_more,
-// .project__link_megogo,
-// .project__link_okko,
-// .project__link_premier,
-// .project__link_tvoekino,
-// .project__link_armenia {
-
-//   &:hover .project__box,
-//   &:focus .project__box {
-//     transform: translateY(100%);
-//   }
-// }
-
 .proba {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
 
   @media screen and (max-width: 479px) {
         
@@ -169,23 +83,27 @@
   }
 
   @media screen and (min-width: 768px) {
+    margin-bottom: 35px;
   }
   
   @media screen and (min-width: 1200px) {
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 52px;
   }
 }
 
-// .proba li {
-//   margin-left: auto;
-// }
+.proba li {
+
+  @media screen and (max-width: 1199px) {
+    margin: 15px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+  }
+}
 
 .width {
   width: 96px;
   height: 68px;
-  // margin: 15px;
 
   @media screen and (max-width: 479px) {
   }

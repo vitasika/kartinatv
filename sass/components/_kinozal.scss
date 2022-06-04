@@ -177,12 +177,14 @@
   background-image: url(../img/kinozal/start.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .start:hover,
 .start:focus {
   background-image: url(../img/kinozal/start_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #e00a1e;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ivi {
@@ -190,12 +192,14 @@
   background-image: url(../img/kinozal/ivi.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ivi:hover,
 .ivi:focus {
   background-image: url(../img/kinozal/ivi_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #ec174f;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .more {
@@ -203,12 +207,14 @@
   background-image: url(../img/kinozal/more.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .more:hover,
 .more:focus {
   background-image: url(../img/kinozal/more_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #ffffff;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .megogo {
@@ -216,12 +222,14 @@
   background-image: url(../img/kinozal/megogo.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .megogo:hover,
 .megogo:focus {
   background-image: url(../img/kinozal/megogo_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #22c3b1;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .okko {
@@ -229,12 +237,14 @@
   background-image: url(../img/kinozal/okko.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .okko:hover,
 .okko:focus {
   background-image: url(../img/kinozal/okko_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #4f1e80;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .premier {
@@ -242,12 +252,14 @@
   background-image: url(../img/kinozal/premier.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .premier:hover,
 .premier:focus {
   background-image: url(../img/kinozal/premier_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #fecb7c;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tvoekino {
@@ -255,12 +267,14 @@
   background-image: url(../img/kinozal/tvoekino.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tvoekino:hover,
 .tvoekino:focus {
   background-image: url(../img/kinozal/tvoekino_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #bfcc42;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .armenia {
@@ -268,10 +282,12 @@
   background-image: url(../img/kinozal/armenia.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .armenia:hover,
 .armenia:focus {
   background-image: url(../img/kinozal/armenia_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #f1a828;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

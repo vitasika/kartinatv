@@ -2,10 +2,10 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;    
     color: #FFFFFF;
-    padding: 7px 10px;
+    padding: 12px 10px;
     width: 100%;
     background-color: #F60;
     border-color: #F60;
@@ -34,7 +34,7 @@
     }
 
     @media screen and (min-width: 480px) {
-        font-size: 14px;
+        // font-size: 14px;
     }
 
     @media screen and (min-width: 768px) {
@@ -54,11 +54,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     width: 100%;
     color: #FFFFFF;
-    padding: 10px 40px;
+    padding: 12px 40px;
     background-color: #F60;
     border-color: #F60;
     // background-color: transparent;
@@ -86,12 +86,12 @@
     }
 
     @media screen and (min-width: 480px) {
-        font-size: 14px;
+        
     }
 
     @media screen and (min-width: 768px) {
         font-size: 12px;
-        padding: 10px 20px;
+        padding: 12px 20px;
         width: 120px;
     }
     

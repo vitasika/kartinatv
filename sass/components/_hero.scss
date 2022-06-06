@@ -6,22 +6,23 @@
     margin-left: auto;
     margin-right: auto;    
     color: #ffffff;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9),
-        rgba(0, 0, 0, 0.8)), url(../img/hero/hero.jpg);
+    background-image: linear-gradient(to top, rgba(27, 18, 19, 1),
+        rgba(0, 0, 0, 0.6)), url(../img/hero/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 100px 0px;
 
     @media screen and (max-width: 479px) {
-        padding: 70px 0px;
+        
     }
 
     @media screen and (min-width: 480px) {
-        height: 600px;
+        // height: 600px;
     }
 
     @media screen and (min-width: 768px) {
-        height: 600px;
+        // height: 600px;
     }
     
     @media screen and (min-width: 1200px) {
@@ -35,12 +36,12 @@
     font-weight: 600;
     margin-bottom: 30px;
     line-height: 1.37;
-    text-align: center;    
+    text-align: start;    
     color: #FFFFFF;
     
 
     @media screen and (max-width: 479px) {
-        font-size: 16px;
+        font-size: 26px;
     }
 
     @media screen and (min-width: 480px) {
@@ -48,8 +49,9 @@
     }
 
     @media screen and (min-width: 768px) {
-        font-size: 35px;
-        margin: 50px auto;
+        font-size: 29px;
+        margin: 0  auto 24px;
+        text-align: center; 
     }
     
     @media screen and (min-width: 1200px) {
@@ -65,7 +67,7 @@
     font-size: 11px;
     text-align: start;
     color: #9B9D9F;
-    margin-bottom: 35px;
+    margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.37;

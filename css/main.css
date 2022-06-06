@@ -177,29 +177,12 @@
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(../img/hero/hero.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hero/hero.jpg);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1b1213), to(rgba(0, 0, 0, 0.6))), url(../img/hero/hero.jpg);
+  background-image: linear-gradient(to top, #1b1213, rgba(0, 0, 0, 0.6)), url(../img/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-@media screen and (max-width: 479px) {
-  .hero {
-    padding: 70px 0px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .hero {
-    height: 600px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero {
-    height: 600px;
-  }
+  padding: 100px 0px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -214,13 +197,13 @@
   font-weight: 600;
   margin-bottom: 30px;
   line-height: 1.37;
-  text-align: center;
+  text-align: start;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 479px) {
   .hero_title {
-    font-size: 16px;
+    font-size: 26px;
   }
 }
 
@@ -232,8 +215,9 @@
 
 @media screen and (min-width: 768px) {
   .hero_title {
-    font-size: 35px;
-    margin: 50px auto;
+    font-size: 29px;
+    margin: 0  auto 24px;
+    text-align: center;
   }
 }
 
@@ -250,7 +234,7 @@
   font-size: 11px;
   text-align: start;
   color: #9B9D9F;
-  margin-bottom: 35px;
+  margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.37;
@@ -442,14 +426,15 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 28px;
   margin-bottom: 32px;
-  text-align: center;
+  text-align: start;
 }
 
 @media screen and (min-width: 768px) {
   .kino__h2 {
-    font-size: 35px;
+    text-align: center;
+    font-size: 26px;
     margin-bottom: 45px;
   }
 }
@@ -462,7 +447,13 @@
 }
 
 .kino__position {
-  text-align: center;
+  text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+  .kino__position {
+    text-align: center;
+  }
 }
 
 .kino_title {
@@ -1308,10 +1299,10 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #FFFFFF;
-  padding: 7px 10px;
+  padding: 12px 10px;
   width: 100%;
   background-color: #F60;
   border-color: #F60;
@@ -1337,12 +1328,6 @@ textarea {
   cursor: pointer;
 }
 
-@media screen and (min-width: 480px) {
-  .hero_button {
-    font-size: 14px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .hero_button {
     font-size: 16px;
@@ -1363,11 +1348,11 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
   width: 100%;
   color: #FFFFFF;
-  padding: 10px 40px;
+  padding: 12px 40px;
   background-color: #F60;
   border-color: #F60;
   border: 1px solid transparent;
@@ -1392,16 +1377,10 @@ textarea {
   cursor: pointer;
 }
 
-@media screen and (min-width: 480px) {
-  .subscription_button {
-    font-size: 14px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .subscription_button {
     font-size: 12px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     width: 120px;
   }
 }

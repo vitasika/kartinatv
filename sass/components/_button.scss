@@ -38,14 +38,15 @@
     }
 
     @media screen and (min-width: 768px) {
-        font-size: 16px;
+        font-size: 18px;
         padding: 14px 20px;
         width: 220px;
         border-radius: 7px;
     }
     
     @media screen and (min-width: 1200px) {
-        padding: 15px 20px;
+        font-size: 20px;
+        padding: 18px 20px;
         width: 256px;
     }
 }
@@ -96,8 +97,8 @@
     }
     
     @media screen and (min-width: 1200px) {
-        font-size: 16px;
-        padding: 15px 20px;
+        font-size: 20px;
+        padding: 18px 20px;
         width: 200px;
     }
 }

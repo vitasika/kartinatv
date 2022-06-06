@@ -244,12 +244,11 @@
 }
 
 .hero_description {
-  max-width: 240px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 200;
   font-size: 11px;
-  text-align: center;
+  text-align: start;
   color: #9B9D9F;
   margin-bottom: 35px;
   margin-left: auto;
@@ -268,6 +267,7 @@
   .hero_description {
     font-size: 18px;
     max-width: 554px;
+    text-align: center;
   }
 }
 
@@ -1308,11 +1308,11 @@ textarea {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   color: #FFFFFF;
   padding: 7px 10px;
-  width: 138px;
+  width: 100%;
   background-color: #F60;
   border-color: #F60;
   border: 1px solid transparent;
@@ -1365,6 +1365,7 @@ textarea {
   font-weight: 400;
   font-size: 12px;
   text-align: center;
+  width: 100%;
   color: #FFFFFF;
   padding: 10px 40px;
   background-color: #F60;

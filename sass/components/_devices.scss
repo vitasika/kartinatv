@@ -1,22 +1,20 @@
 .devices {
-    
     @media screen and (max-width: 767px) {
         display: none;
     }
-    
+
     // @media screen and (min-width: 480px) {
-        
+
     // }
-    
+
     @media screen and (min-width: 768px) {
         font-size: 35px;
         padding: 30px 0;
         background: #1b1213;
         color: #ffffff;
     }
-    
+
     @media screen and (min-width: 1200px) {
-        
     }
 }
 
@@ -25,13 +23,13 @@
 }
 
 .devices__title {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     // margin-bottom: 80px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     position: absolute;
     top: 0;
     left: 50%;
@@ -39,19 +37,16 @@
     z-index: 1;
 
     @media screen and (max-width: 479px) {
-        
     }
-    
+
     @media screen and (min-width: 480px) {
-        
     }
-    
+
     @media screen and (min-width: 768px) {
         font-size: 35px;
     }
-    
+
     @media screen and (min-width: 1200px) {
-        
     }
 }
 
@@ -61,7 +56,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     // background: #1C1413;
-    
 
     @media screen and (max-width: 479px) {
         display: flex;
@@ -102,14 +96,13 @@
 
     &:hover,
     &:focus {
-        fill: #F60;
+        fill: #f60;
     }
 
-    &:active{
-        fill: #FFF;
+    &:active {
+        fill: #fff;
     }
 }
-
 
 .devices_header {
     font-size: 28px;
@@ -117,19 +110,16 @@
     margin-bottom: 40px;
 
     @media screen and (max-width: 479px) {
-        
     }
 
     @media screen and (min-width: 480px) {
-        
     }
 
     @media screen and (min-width: 768px) {
         margin-top: 20px;
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     @media screen and (min-width: 1200px) {
-        
     }
 }

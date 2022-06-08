@@ -681,7 +681,8 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 li {
@@ -772,12 +773,12 @@ textarea {
 }
 
 .devices__title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   top: 0;
   left: 50%;
@@ -866,11 +867,11 @@ textarea {
 }
 
 .clients__logo:hover, .clients__logo:focus {
-  fill: #F60;
+  fill: #f60;
 }
 
 .clients__logo:active {
-  fill: #FFF;
+  fill: #fff;
 }
 
 .devices_header {
@@ -925,7 +926,7 @@ textarea {
   font-weight: 600;
   font-size: 26px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: start;
   color: #000000;
 }
 
@@ -933,6 +934,7 @@ textarea {
   .subscription__title {
     font-size: 35px;
     margin-bottom: 25px;
+    text-align: center;
   }
 }
 

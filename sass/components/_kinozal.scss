@@ -1,31 +1,29 @@
-.kinozal {  
+.kinozal {
   background: #1b1213;
   color: #ffffff;
-  padding: 35px 0;  
+  padding: 35px 0;
 }
 
 .kino__h2 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;    
+  font-weight: 700;
   font-size: 28px;
   margin-bottom: 32px;
   text-align: start;
 
   @media screen and (max-width: 479px) {
-        
   }
 
   @media screen and (min-width: 480px) {
-      
   }
 
   @media screen and (min-width: 768px) {
     text-align: center;
-    font-size: 26px;    
+    font-size: 26px;
     margin-bottom: 45px;
   }
-  
+
   @media screen and (min-width: 1200px) {
     font-size: 50px;
     margin-bottom: 52px;
@@ -36,49 +34,44 @@
   text-align: start;
 
   @media screen and (max-width: 479px) {
-        
   }
 
   @media screen and (min-width: 480px) {
-      
   }
 
   @media screen and (min-width: 768px) {
     text-align: center;
   }
-  
+
   @media screen and (min-width: 1200px) {
-    
   }
 }
 
-.kino_title{
+.kino_title {
   // max-width: 216px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.37;
-  text-align: start;  
-  color: #9B9D9F;
+  text-align: start;
+  color: #9b9d9f;
 
   @media screen and (max-width: 479px) {
-        
   }
 
   @media screen and (min-width: 480px) {
-      
   }
 
   @media screen and (min-width: 768px) {
-    text-align: center; 
-    font-size: 15px;    
+    text-align: center;
+    font-size: 15px;
     margin-bottom: 40px;
     max-width: 538px;
   }
-  
+
   @media screen and (min-width: 1200px) {
     max-width: 738px;
     font-size: 24px;
@@ -93,28 +86,25 @@
   margin-bottom: 32px;
 
   @media screen and (max-width: 479px) {
-        
   }
 
   @media screen and (min-width: 480px) {
-      
   }
 
   @media screen and (min-width: 768px) {
     margin-bottom: 35px;
   }
-  
+
   @media screen and (min-width: 1200px) {
     margin-bottom: 52px;
   }
 }
 
 .proba li {
-
   @media screen and (max-width: 1199px) {
     margin: 15px;
   }
-  
+
   @media screen and (min-width: 1200px) {
   }
 }
@@ -131,7 +121,7 @@
 
   @media screen and (min-width: 768px) {
   }
-  
+
   @media screen and (min-width: 1200px) {
   }
 }
@@ -148,7 +138,7 @@
 .start:focus {
   background-image: url(../img/kinozal/start_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #e00a1e;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ivi {
@@ -163,7 +153,7 @@
 .ivi:focus {
   background-image: url(../img/kinozal/ivi_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #ec174f;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .more {
@@ -178,7 +168,7 @@
 .more:focus {
   background-image: url(../img/kinozal/more_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #ffffff;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .megogo {
@@ -193,7 +183,7 @@
 .megogo:focus {
   background-image: url(../img/kinozal/megogo_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #22c3b1;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .okko {
@@ -208,7 +198,7 @@
 .okko:focus {
   background-image: url(../img/kinozal/okko_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #4f1e80;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .premier {
@@ -223,7 +213,7 @@
 .premier:focus {
   background-image: url(../img/kinozal/premier_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #fecb7c;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tvoekino {
@@ -238,7 +228,7 @@
 .tvoekino:focus {
   background-image: url(../img/kinozal/tvoekino_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #bfcc42;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .armenia {
@@ -253,5 +243,5 @@
 .armenia:focus {
   background-image: url(../img/kinozal/armenia_h.png);
   box-shadow: 0 2.25rem 4rem -1.25rem #f1a828;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

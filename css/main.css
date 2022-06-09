@@ -887,6 +887,14 @@ textarea {
   }
 }
 
+.infoblock {
+  height: 895px;
+}
+
+.infoblock__item {
+  width: 202px;
+}
+
 .subscription {
   padding: 40px 0;
 }

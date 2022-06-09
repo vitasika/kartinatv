@@ -35,7 +35,7 @@
     }
 
     @media screen and (min-width: 480px) {
-        justify-content: space-around;
+        justify-content: space-between;
         align-content: center;
         flex-wrap: wrap;
         align-items: center;
@@ -57,7 +57,6 @@
     width: 85px;
 
     @media screen and (max-width: 479px) {
-
     }
 
     @media screen and (min-width: 480px) {
@@ -74,9 +73,9 @@
 }
 
 .headertel {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
-    font-weight: 400;    
+    font-weight: 400;
     line-height: 22px;
     color: #ffffff;
     // padding: 20px 0;
@@ -105,10 +104,10 @@
 }
 
 .headermenu {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
-    font-weight: 400;    
-    line-height: 24px;    
+    font-weight: 400;
+    line-height: 24px;
     color: #ffffff;
     border: #9b9d9f45 solid 2px;
     border-radius: 7px;

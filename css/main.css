@@ -877,39 +877,28 @@ textarea {
 }
 
 .mobilblock {
-  height: 895px;
+  height: 210px;
+  text-align: center;
 }
 
 .mobilblock__header {
-  font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 28px;
   margin-bottom: 40px;
 }
 
 .mobilblock__list {
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1200px) {
   .mobilblock__list {
-    margin: 0;
-    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 27px;
   }
 }
@@ -919,6 +908,12 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   width: 202px;
+  margin: 0 24px 15px;
+}
+
+.mobilblock__description {
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .subscription {

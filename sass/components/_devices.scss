@@ -119,7 +119,8 @@
 }
 
 .mobilblock {
-    height: 895px;
+    height: 210px;
+    text-align: center;
     // display: flex;
     // flex-direction: column;
     // flex-wrap: nowrap;
@@ -127,15 +128,13 @@
 }
 
 .mobilblock__header {
-    font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 28px;
     margin-bottom: 40px;
 }
 
 .mobilblock__list {
     font-weight: 500;
-    display: flex;
-    flex-wrap: wrap;
 
     @media screen and (max-width: 479px) {
     }
@@ -147,13 +146,9 @@
     }
 
     @media screen and (min-width: 1200px) {
-        // margin-bottom: 40px;
-        margin: 0;
-        padding: 0;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+
         padding-bottom: 27px;
     }
 }
@@ -161,4 +156,10 @@
 .mobilblock__item {
     display: flex;
     width: 202px;
+    margin: 0 24px 15px;
+}
+
+.mobilblock__description {
+    font-weight: 600;
+    font-size: 22px;
 }

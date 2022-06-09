@@ -125,6 +125,7 @@
     // flex-direction: column;
     // flex-wrap: nowrap;
     // align-items: center;
+    // display: none;
 }
 
 .mobilblock__header {
@@ -163,3 +164,9 @@
     font-weight: 600;
     font-size: 22px;
 }
+
+// .mobilblock:hover,
+// .mobilblock:focus {
+//     cursor: pointer;
+//     display: none;
+// }

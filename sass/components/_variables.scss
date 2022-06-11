@@ -1,6 +1,7 @@
 :root {
-  $primary-bg-color: #1b1213;
-  $second-bg-color: #ffffff;
+  $first-bg-color: #1b1213;
+  $second-bg-color: #e5e5e5;
+  $additional-bg-color: #fff;
   $primary-text-color: #ffffff;
   $second-text-color: #000000;
   $btn-bg-color: #f60;
@@ -19,8 +20,10 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background-color: $primary-bg-color;
+  background-color: $first-bg-color;
   color: $primary-text-color;
+  // background-color: $primary-bg-color;
+  // color: $primary-text-color;
   font-weight: 400;
   line-height: 1.37;
   // letter-spacing: 0.03em;

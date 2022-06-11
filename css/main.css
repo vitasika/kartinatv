@@ -88,7 +88,6 @@
 .headertel {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   line-height: 22px;
   color: #ffffff;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -126,7 +125,6 @@
 .headermenu {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   color: #ffffff;
   border: #9b9d9f45 solid 2px;
@@ -341,9 +339,6 @@
 }
 
 .masonry .grid__author {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 10px;
   line-height: 1.37;
   color: rgba(255, 255, 255, 0.7);
@@ -460,9 +455,6 @@
 .kino_title {
   margin-left: auto;
   margin-right: auto;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.37;
   text-align: start;
@@ -1084,9 +1076,6 @@ textarea {
 }
 
 .text_card {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   margin-right: 8px;
   text-align: start;
@@ -1109,8 +1098,6 @@ textarea {
 .card_price {
   color: #ff6600;
   font-size: 30px;
-  font-family: "Roboto";
-  font-weight: 400;
   line-height: 1.167;
   letter-spacing: 0.006em;
 }
@@ -1167,9 +1154,6 @@ textarea {
 }
 
 .console_title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 22px;
   line-height: 34px;
   margin-bottom: 40px;
@@ -1236,9 +1220,6 @@ textarea {
 }
 
 .console_description {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.37;
   color: #9b9d9f;
@@ -1325,9 +1306,6 @@ textarea {
 }
 
 .footer_text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 10px;
   line-height: 1.37;
   margin-bottom: 5px;
@@ -1346,12 +1324,8 @@ textarea {
 }
 
 .hero_button {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color: #FFFFFF;
   padding: 12px 10px;
   width: 100%;
   background-color: #F60;
@@ -1396,9 +1370,6 @@ textarea {
 }
 
 .subscription_button {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   text-align: center;
   width: 100%;

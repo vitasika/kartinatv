@@ -42,7 +42,6 @@
         &__title {
             font-weight: 600;
             font-size: 16px;
-            line-height: 1.01;
             font-weight: bold;
             margin: 0px 0px 10px 0px;
 
@@ -65,7 +64,6 @@
 
         &__author {
             font-size: 10px;
-            line-height: 1.37;
             color: rgba(255, 255, 255, 0.7);
 
             @media screen and (max-width: 479px) {
@@ -117,7 +115,6 @@
         &__tag {
             font-weight: 600;
             font-size: 12px;
-            line-height: 16px;
             background-color: #f60;
             border-radius: 5px;
             padding: 4px 12px;

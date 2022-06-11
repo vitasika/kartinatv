@@ -302,7 +302,7 @@
 
 .masonry .grid:before {
   border-radius: 20px;
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -317,7 +317,7 @@
 }
 
 .masonry .grid__title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -341,7 +341,7 @@
 }
 
 .masonry .grid__author {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -387,7 +387,7 @@
 }
 
 .masonry .grid__tag {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;

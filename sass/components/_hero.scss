@@ -1,20 +1,16 @@
 .hero {
     display: flex;
     align-items: center;
-    text-align: center;    
-    // max-width: 1440px;
+    text-align: center;
     margin-left: auto;
-    margin-right: auto;    
-    color: #ffffff;
-    background-image: linear-gradient(to top, rgba(27, 18, 19, 1),
-        rgba(0, 0, 0, 0.6)), url(../img/hero/hero.jpg);
+    margin-right: auto;
+    background-image: linear-gradient(to top, rgba(27, 18, 19, 1), rgba(0, 0, 0, 0.6)), url(../img/hero/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 100px 0px 15px;
 
     @media screen and (max-width: 479px) {
-        
     }
 
     @media screen and (min-width: 480px) {
@@ -24,21 +20,17 @@
     @media screen and (min-width: 768px) {
         // height: 600px;
     }
-    
+
     @media screen and (min-width: 1200px) {
         height: 650px;
     }
 }
 
 .hero_title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     margin-bottom: 30px;
     line-height: 1.37;
-    text-align: start;    
-    color: #FFFFFF;
-    
+    text-align: start;
 
     @media screen and (max-width: 479px) {
         font-size: 26px;
@@ -50,30 +42,26 @@
 
     @media screen and (min-width: 768px) {
         font-size: 29px;
-        margin: 0  auto 24px;
-        text-align: center; 
+        margin: 0 auto 24px;
+        text-align: center;
     }
-    
+
     @media screen and (min-width: 1200px) {
         font-size: 40px;
     }
 }
 
 .hero_description {
-    // max-width: 240px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 200;
     font-size: 14px;
     text-align: start;
-    color: #9B9D9F;
+    color: #9b9d9f;
     margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.37;
 
     @media screen and (max-width: 479px) {
-        
     }
 
     @media screen and (min-width: 480px) {
@@ -86,12 +74,11 @@
         max-width: 554px;
         text-align: center;
     }
-    
+
     @media screen and (min-width: 1200px) {
-        
     }
 }
 
 .hero_description span {
-    color: #F60
+    color: #f60;
 }

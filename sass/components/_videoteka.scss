@@ -1,13 +1,11 @@
 .videoteka {
     padding: 30px 0;
-    background: #1b1213;
-    color: #ffffff;
 }
 
 .masonry {
     columns: 3;
     column-gap: 16px;
-    
+
     @media (max-width: 1200px) {
         columns: 3;
     }
@@ -20,7 +18,6 @@
         columns: 1;
     }
 
-    //@media (max-width: 768px) {columns: 1;}
     .grid {
         display: inline-block;
         margin-bottom: 16px;
@@ -28,13 +25,13 @@
 
         &:before {
             border-radius: 20px;
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
             left: 0;
-            background-color: rgba(0, 0, 0, .2);
+            background-color: rgba(0, 0, 0, 0.2);
         }
 
         img {
@@ -43,8 +40,6 @@
         }
 
         &__title {
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 600;
             font-size: 16px;
             line-height: 1.01;
@@ -52,18 +47,16 @@
             margin: 0px 0px 10px 0px;
 
             @media screen and (max-width: 479px) {
-        
             }
-        
+
             @media screen and (min-width: 480px) {
-                
             }
-        
+
             @media screen and (min-width: 768px) {
                 font-size: 20px;
                 margin: 0px 0px 8px 0px;
             }
-            
+
             @media screen and (min-width: 1200px) {
                 font-size: 24px;
                 margin: 0px 0px 8px 0px;
@@ -71,27 +64,22 @@
         }
 
         &__author {
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 400;
             font-size: 10px;
-            line-height: 1.37;            
+            line-height: 1.37;
             color: rgba(255, 255, 255, 0.7);
 
             @media screen and (max-width: 479px) {
-        
             }
-        
+
             @media screen and (min-width: 480px) {
-                
             }
-        
+
             @media screen and (min-width: 768px) {
                 font-size: 12px;
             }
-            
+
             @media screen and (min-width: 1200px) {
-                
             }
         }
 
@@ -110,51 +98,43 @@
             top: 0;
             bottom: 0;
             padding: 30px 30px;
-            color: #fff;
             display: flex;
             flex-direction: column;
 
             @media screen and (max-width: 479px) {
-        
             }
-        
+
             @media screen and (min-width: 480px) {
-                
             }
-        
+
             @media screen and (min-width: 768px) {
                 padding: 25px 25px;
             }
-            
+
             @media screen and (min-width: 1200px) {
-                
             }
         }
 
         &__tag {
-            font-family: 'Roboto';
             font-weight: 600;
             font-size: 12px;
             line-height: 16px;
             background-color: #f60;
-            color: #fff;
             border-radius: 5px;
             padding: 4px 12px;
             margin-bottom: 5px;
 
             @media screen and (max-width: 479px) {
-        
             }
-        
+
             @media screen and (min-width: 480px) {
-                
             }
-        
+
             @media screen and (min-width: 768px) {
                 font-size: 12px;
                 padding: 5px 10px;
             }
-            
+
             @media screen and (min-width: 1200px) {
                 font-size: 17px;
                 padding: 5px 10px;
@@ -167,4 +147,3 @@
     margin-bottom: auto;
     margin-left: auto;
 }
-

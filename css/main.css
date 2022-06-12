@@ -87,6 +87,7 @@
 .headertel {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: inherit;
 }
 
 .headertel:focus, .headertel:hover {
@@ -358,9 +359,8 @@
 }
 
 .masonry .grid__tag {
-  font-weight: 600;
   font-size: 12px;
-  background-color: #f60;
+  background-color: var(--btn-bg-color);
   border-radius: 5px;
   padding: 4px 12px;
   margin-bottom: 5px;
@@ -375,7 +375,7 @@
 
 @media screen and (min-width: 1200px) {
   .masonry .grid__tag {
-    font-size: 17px;
+    font-size: 16px;
     padding: 5px 10px;
   }
 }
@@ -1048,7 +1048,6 @@ textarea {
 }
 
 .text_card {
-  font-weight: 600;
   font-size: 16px;
   margin-right: 8px;
   text-align: start;

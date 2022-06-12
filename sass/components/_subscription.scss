@@ -1,6 +1,6 @@
 .subscription {
     padding: 40px 0;
-    background-color: $additional-bg-color;
+    background-color: var(--second-bg-color);
 }
 
 .subscription-wrapper {
@@ -29,7 +29,7 @@
     font-size: 26px;
     margin-bottom: 30px;
     text-align: start;
-    color: $second-text-color;
+    color: var(--second-text-color);
 
     @media screen and (max-width: 479px) {
     }
@@ -52,13 +52,12 @@
 .subscription-card img {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
-    // border: #9b9d9f45 solid 1px;
 }
 
 .subscription-card {
     margin: 15px;
     padding: 15px;
-    background-color: $subscription-card-bg-color;
+    background-color: var(--additional-bg-color);
     box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
     transition: all 250ms;
     text-align: center;
@@ -125,9 +124,11 @@
 }
 
 .text_card {
+    font-weight: 600;
     font-size: 16px;
     margin-right: 8px;
     text-align: start;
+    color: var(--second-text-color);
 
     @media screen and (max-width: 479px) {
     }

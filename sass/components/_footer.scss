@@ -1,5 +1,5 @@
 .footer {
-    background-color: $primary-bg-color;
+    background-color: var(--primary-bg-color);
     color: inherit;
     border-top: #9b9d9f solid 1px;
     padding: 20px 0;
@@ -79,6 +79,7 @@
 .footer_text {
     font-size: 10px;
     margin-bottom: 5px;
+    color: inherit;
 
     @media screen and (max-width: 479px) {
     }

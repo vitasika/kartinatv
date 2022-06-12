@@ -3,8 +3,9 @@
     text-align: center;
     padding: 12px 10px;
     width: 100%;
-    background-color: $btn-bg-color;
-    border-color: $btn-bg-color;
+    background-color: var(--btn-bg-color);
+    border-color: var(--btn-bg-color);
+    color: inherit;
     // background-color: transparent;
     border: 1px solid transparent;
     overflow: hidden;
@@ -52,6 +53,7 @@
     padding: 12px 40px;
     background-color: #f60;
     border-color: #f60;
+    color: inherit;
     // background-color: transparent;
     border: 1px solid transparent;
     overflow: hidden;

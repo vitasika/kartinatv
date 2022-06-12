@@ -1,6 +1,5 @@
 .header {
   width: 100%;
-  color: #ffffff;
   border-bottom: #9b9d9f solid 1px;
   position: absolute;
   top: 0;
@@ -86,10 +85,6 @@
 }
 
 .headertel {
-  font-family: "Roboto";
-  font-style: normal;
-  line-height: 22px;
-  color: #ffffff;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -123,10 +118,6 @@
 }
 
 .headermenu {
-  font-family: "Roboto";
-  font-style: normal;
-  line-height: 24px;
-  color: #ffffff;
   border: #9b9d9f45 solid 2px;
   border-radius: 7px;
   padding: 2px 10px;
@@ -175,7 +166,6 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  color: #ffffff;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#1b1213), to(rgba(0, 0, 0, 0.6))), url(../img/hero/hero.jpg);
   background-image: linear-gradient(to top, #1b1213, rgba(0, 0, 0, 0.6)), url(../img/hero/hero.jpg);
   background-repeat: no-repeat;
@@ -191,13 +181,9 @@
 }
 
 .hero_title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 600;
   margin-bottom: 30px;
-  line-height: 1.37;
   text-align: start;
-  color: #FFFFFF;
 }
 
 @media screen and (max-width: 479px) {
@@ -215,7 +201,7 @@
 @media screen and (min-width: 768px) {
   .hero_title {
     font-size: 29px;
-    margin: 0  auto 24px;
+    margin: 0 auto 24px;
     text-align: center;
   }
 }
@@ -227,16 +213,13 @@
 }
 
 .hero_description {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 200;
   font-size: 14px;
   text-align: start;
-  color: #9B9D9F;
+  color: #9b9d9f;
   margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.37;
 }
 
 @media screen and (min-width: 480px) {
@@ -255,13 +238,11 @@
 }
 
 .hero_description span {
-  color: #F60;
+  color: #f60;
 }
 
 .videoteka {
   padding: 30px 0;
-  background: #1b1213;
-  color: #ffffff;
 }
 
 .masonry {
@@ -315,11 +296,8 @@
 }
 
 .masonry .grid__title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.01;
   font-weight: bold;
   margin: 0px 0px 10px 0px;
 }
@@ -340,7 +318,6 @@
 
 .masonry .grid__author {
   font-size: 10px;
-  line-height: 1.37;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -365,7 +342,6 @@
   top: 0;
   bottom: 0;
   padding: 30px 30px;
-  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,12 +358,9 @@
 }
 
 .masonry .grid__tag {
-  font-family: "Roboto";
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px;
   background-color: #f60;
-  color: #fff;
   border-radius: 5px;
   padding: 4px 12px;
   margin-bottom: 5px;
@@ -413,14 +386,10 @@
 }
 
 .kinozal {
-  background: #1b1213;
-  color: #ffffff;
   padding: 35px 0;
 }
 
 .kino__h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 32px;
@@ -456,7 +425,6 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 14px;
-  line-height: 1.37;
   text-align: start;
   color: #9b9d9f;
 }
@@ -673,10 +641,23 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+:root {
+  --first-bg-color: #1b1213;
+  --second-bg-color: #e5e5e5;
+  --additional-bg-color: #fff;
+  --primary-text-color: #ffffff;
+  --second-text-color: #000000;
+  --btn-bg-color: #f60;
+  --btn-primary-text-color: #ffffff;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background-color: #1b1213;
+  background-color: var(--first-bg-color);
+  color: var(--primary-text-color);
+  font-weight: 400;
+  line-height: 1.37;
 }
 
 li {
@@ -701,8 +682,6 @@ h6,
 ul,
 p {
   margin: 0;
-  font-weight: 700px;
-  line-height: 1.166;
 }
 
 img {
@@ -757,8 +736,6 @@ textarea {
   .devices {
     font-size: 35px;
     padding: 30px 0;
-    background-color: #1b1213;
-    color: #ffffff;
   }
 }
 
@@ -767,12 +744,9 @@ textarea {
 }
 
 .devices__title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 35px;
   text-align: center;
-  color: #ffffff;
   position: absolute;
   top: 0;
   left: 50%;
@@ -856,7 +830,7 @@ textarea {
 }
 
 .clients__logo:hover, .clients__logo:focus {
-  fill: #f60;
+  fill: var(--btn-bg-color);
 }
 
 .clients__logo:active {
@@ -919,7 +893,7 @@ textarea {
 
 .subscription {
   padding: 40px 0;
-  background-color: #ffffff;
+  background-color: var(--second-bg-color);
 }
 
 .subscription-wrapper {
@@ -952,13 +926,11 @@ textarea {
 }
 
 .subscription__title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 26px;
   margin-bottom: 30px;
   text-align: start;
-  color: #000000;
+  color: var(--second-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -985,7 +957,7 @@ textarea {
 .subscription-card {
   margin: 15px;
   padding: 15px;
-  background: #ffffff;
+  background-color: var(--additional-bg-color);
   -webkit-box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
           box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 250ms;
@@ -1076,9 +1048,11 @@ textarea {
 }
 
 .text_card {
+  font-weight: 600;
   font-size: 16px;
   margin-right: 8px;
   text-align: start;
+  color: var(--second-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -1098,7 +1072,6 @@ textarea {
 .card_price {
   color: #ff6600;
   font-size: 30px;
-  line-height: 1.167;
   letter-spacing: 0.006em;
 }
 
@@ -1116,8 +1089,6 @@ textarea {
 
 .console {
   padding: 40px 0;
-  background: #1b1213;
-  color: #ffffff;
   text-align: center;
 }
 
@@ -1155,7 +1126,6 @@ textarea {
 
 .console_title {
   font-size: 22px;
-  line-height: 34px;
   margin-bottom: 40px;
 }
 
@@ -1198,11 +1168,8 @@ textarea {
 }
 
 .console_header {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 1.37;
   margin-bottom: 25px;
 }
 
@@ -1221,7 +1188,6 @@ textarea {
 
 .console_description {
   font-size: 12px;
-  line-height: 1.37;
   color: #9b9d9f;
   margin-bottom: 25px;
 }
@@ -1240,8 +1206,8 @@ textarea {
 }
 
 .footer {
-  background: #1b1213;
-  color: #ffffff;
+  background-color: var(--primary-bg-color);
+  color: inherit;
   border-top: #9b9d9f solid 1px;
   padding: 20px 0;
 }
@@ -1307,8 +1273,8 @@ textarea {
 
 .footer_text {
   font-size: 10px;
-  line-height: 1.37;
   margin-bottom: 5px;
+  color: inherit;
 }
 
 @media screen and (min-width: 768px) {
@@ -1328,8 +1294,9 @@ textarea {
   text-align: center;
   padding: 12px 10px;
   width: 100%;
-  background-color: #F60;
-  border-color: #F60;
+  background-color: var(--btn-bg-color);
+  border-color: var(--btn-bg-color);
+  color: inherit;
   border: 1px solid transparent;
   overflow: hidden;
   border-radius: 3px;
@@ -1344,7 +1311,6 @@ textarea {
 }
 
 .hero_button:focus {
-  color: #ffffff;
   background-color: #d95700;
   border-color: #cc5200;
   -webkit-box-shadow: 0 0 0 0 rgba(255, 125, 38, 0.5);
@@ -1373,10 +1339,10 @@ textarea {
   font-size: 18px;
   text-align: center;
   width: 100%;
-  color: #FFFFFF;
   padding: 12px 40px;
-  background-color: #F60;
-  border-color: #F60;
+  background-color: #f60;
+  border-color: #f60;
+  color: inherit;
   border: 1px solid transparent;
   overflow: hidden;
   border-radius: 7px;
@@ -1391,7 +1357,6 @@ textarea {
 }
 
 .subscription_button:focus {
-  color: #ffffff;
   background-color: #d95700;
   border-color: #cc5200;
   -webkit-box-shadow: 0 0 0 0 rgba(255, 125, 38, 0.5);

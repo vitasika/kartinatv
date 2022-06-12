@@ -81,7 +81,7 @@
 
     &:hover,
     &:focus {
-        fill: #f60;
+        fill: var(--btn-bg-color);
     }
 
     &:active {

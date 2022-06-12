@@ -684,6 +684,7 @@ h6,
 ul,
 p {
   margin: 0;
+  font-weight: 400;
 }
 
 img {

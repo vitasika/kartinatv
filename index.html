@@ -1,433 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>KartinaTVua</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        />
-        <link rel="stylesheet" href="./css/main.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
 
-    <body>
-        <!-- header -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KartinaTVua</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
 
-        <section class="header">
+<body>
+    <!-- header -->
+
+    <section class="header">
+        <div class="container">
+            <div class="headerbox">
+                <a href="./index.html" class="headerlogo">
+                    <img src="./img/header/logo.svg" alt="logo" />
+                </a>
+                <a href="tel:+380677193330" class="headertel">+380 67 719 33 30</a>
+                <h2 class="headermenu">Меню</h2>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- hero -->
+
+        <section class="hero">
             <div class="container">
-                <div class="headerbox">
-                    <a href="./index.html" class="headerlogo">
-                        <img src="./img/header/logo.svg" alt="logo" />
-                    </a>
-                    <a href="tel:+380677193330" class="headertel">+380 67 719 33 30</a>
-                    <h2 class="headermenu">Меню</h2>
+                <h1 class="hero_title">
+                    Лучшие национальные телеканалы в прямом эфире, а также тысячи фильмов и
+                    сериалов
+                </h1>
+                <h2 class="hero_description">
+                    Эксклюзивные сериалы START, видеотеки ivi, more.tv, Megogo, Okko и PREMIER,
+                    а также видеотеки на украинском и армянском языках. Прямой эфир федеральных
+                    телеканалов и еще более 200 каналов в единой подписке
+                    <span>от 25,00 €</span>.
+                </h2>
+
+                <button class="hero_button" data-modal-open>Оформить подписку</button>
+            </div>
+        </section>
+
+        <!-- videoteka -->
+
+        <section class="videoteka">
+            <div class="container masonry">
+                <div class="grid">
+                    <img src="./img/videoteka/1645521716.jpg" alt="Пассажиры. Второй сезон" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Перезапуск истории</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h2 class="grid__title">Пассажиры. Второй сезон</h2>
+                            <p class="grid__author">2022, драма, START</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1646234713.jpg" alt="Фиксики" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Наука у техника для детей</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Фиксики</h1>
+                            <p class="grid__author">2019, мультфильм, START</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1648557203.jpg" alt="Папы" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Работа быть папой</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Папы</h1>
+                            <p class="grid__author">2022, драма, PREMIER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1650439806.jpg" alt="Хочу замуж" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Снова любовь</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Хочу замуж</h1>
+                            <p class="grid__author">2022, комедия, START</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1650461342.jpg" alt="Эпидемия 2" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Новый сезон</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Эпидемия 2</h1>
+                            <p class="grid__author">2022, драма, PREMIER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1650461410.jpg" alt="Два холма" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Матриархальный сериал</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Два холма</h1>
+                            <p class="grid__author">2022, комедия, START</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1651669212.jpg" alt="Моя ужасная сестра" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Сводные или родные?</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Моя ужасная сестра</h1>
+                            <p class="grid__author">2022, комедия, PREMIER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1652362492.jpg" alt="Смычок" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Ни грамма фальши</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Смычок</h1>
+                            <p class="grid__author">2022, драма, START</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1652367555.jpg" alt="Я иду искать" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Премьера</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Я иду искать</h1>
+                            <p class="grid__author">2022, драма, PREMIER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1652867233.jpg" alt="Родители строгого режима" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Воспитать мэра</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Родители строгого режима</h1>
+                            <p class="grid__author">2022, комедия, PREMIER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1652872614.jpg" alt="Абсурд" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Актёры поневоле</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Абсурд</h1>
+                            <p class="grid__author">2022, комедия, PREMIER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img src="./img/videoteka/1652950381.jpg" alt="Без памяти" />
+                    <div class="grid__body">
+                        <div class="mt-auto">
+                            <span class="grid__tag">Замуж невтерпёж</span>
+                        </div>
+                        <div class="relative">
+                            <a class="grid__link" target="_blank" href="/"></a>
+                            <h1 class="grid__title">Без памяти</h1>
+                            <p class="grid__author">2022, комедия, START</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <main>
-            <!-- hero -->
+        <!-- Kinozal -->
 
-            <section class="hero">
-                <div class="container">
-                    <h1 class="hero_title">
-                        Лучшие национальные телеканалы в прямом эфире, а также тысячи фильмов и
-                        сериалов
-                    </h1>
-                    <h2 class="hero_description">
-                        Эксклюзивные сериалы START, видеотеки ivi, more.tv, Megogo, Okko и PREMIER,
-                        а также видеотеки на украинском и армянском языках. Прямой эфир федеральных
-                        телеканалов и еще более 200 каналов в единой подписке
-                        <span>от 25,00 €</span>.
-                    </h2>
+        <section class="kinozal">
+            <div class="container">
+                <h2 class="kino__h2 kino__position">Одна подписка - много сервисов</h2>
+                <ul class="proba">
+                    <li><a href="#" class="start width"></a></li>
+                    <li><a href="#" class="ivi width"></a></li>
+                    <li><a href="#" class="more width"></a></li>
+                    <li><a href="#" class="megogo width"></a></li>
+                    <li><a href="#" class="okko width"></a></li>
+                    <li><a href="#" class="premier width"></a></li>
+                    <li><a href="#" class="tvoekino width"></a></li>
+                    <li><a href="#" class="armenia width"></a></li>
+                </ul>
 
-                    <button class="hero_button" data-modal-open>Оформить подписку</button>
-                </div>
-            </section>
+                <h2 class="kino__h2">
+                    Kartina.TV: кино и ТВ на родном языке в Германии, США и других странах
+                </h2>
+                <p class="kino_title">
+                    Kartina.TV — крупнейший провайдер интернет-телевидения, который предлагает
+                    огромный выбор национальных ТВ-каналов, а также фильмов и сериалов из
+                    коллекций популярных видеосервисов (START, ivi, more.tv, Megogo, Okko,
+                    PREMIER, а также видеотеки на украинском и армянском языках). Смотрите
+                    любимое кино, мультфильмы и передачи на русском, украинском и других языках
+                    в любой точке мира!
+                </p>
+            </div>
+        </section>
 
-            <!-- videoteka -->
+        <!-- Subscription -->
 
-            <section class="videoteka">
-                <div class="container masonry">
-                    <div class="grid">
-                        <img src="./img/videoteka/1645521716.jpg" alt="Пассажиры. Второй сезон" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Перезапуск истории</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h2 class="grid__title">Пассажиры. Второй сезон</h2>
-                                <p class="grid__author">2022, драма, START</p>
-                            </div>
+        <section class="subscription">
+            <div class="container">
+                <h2 class="subscription__title">
+                    Выберите карту пополнения <br />
+                    баланса подписки
+                </h2>
+                <ul class="subscription-wrapper">
+                    <li class="subscription-card">
+                        <img src="./img/subscription/25.png" alt="card25" class="subscription__img" />
+                        <div class="card_position">
+                            <h2 class="text_card">Картa пополнения баланса 25</h2>
+                            <p class="card_price">25&nbsp;€</p>
                         </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1646234713.jpg" alt="Фиксики" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Наука у техника для детей</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Фиксики</h1>
-                                <p class="grid__author">2019, мультфильм, START</p>
-                            </div>
+                        <button class="subscription_button">Выбрать</button>
+                    </li>
+                    <li class="subscription-card">
+                        <img src="./img/subscription/50.png" alt="card50" class="subscription__img" />
+                        <div class="card_position">
+                            <h2 class="text_card">Картa пополнения баланса 50</h2>
+                            <p class="card_price">50&nbsp;€</p>
                         </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1648557203.jpg" alt="Папы" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Работа быть папой</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Папы</h1>
-                                <p class="grid__author">2022, драма, PREMIER</p>
-                            </div>
+                        <button class="subscription_button">Выбрать</button>
+                    </li>
+                    <li class="subscription-card">
+                        <img src="./img/subscription/100.png" alt="card100" class="subscription__img" />
+                        <div class="card_position">
+                            <h2 class="text_card">Картa пополнения баланса 100</h2>
+                            <p class="card_price">100&nbsp;€</p>
                         </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1650439806.jpg" alt="Хочу замуж" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Снова любовь</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Хочу замуж</h1>
-                                <p class="grid__author">2022, комедия, START</p>
-                            </div>
+                        <button class="subscription_button">Выбрать</button>
+                    </li>
+                    <li class="subscription-card">
+                        <img src="./img/subscription/165.png" alt="card165" class="subscription__img" />
+                        <div class="card_position">
+                            <h2 class="text_card">Картa пополнения баланса 1 год</h2>
+                            <p class="card_price">165&nbsp;€</p>
                         </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1650461342.jpg" alt="Эпидемия 2" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Новый сезон</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Эпидемия 2</h1>
-                                <p class="grid__author">2022, драма, PREMIER</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1650461410.jpg" alt="Два холма" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Матриархальный сериал</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Два холма</h1>
-                                <p class="grid__author">2022, комедия, START</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1651669212.jpg" alt="Моя ужасная сестра" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Сводные или родные?</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Моя ужасная сестра</h1>
-                                <p class="grid__author">2022, комедия, PREMIER</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1652362492.jpg" alt="Смычок" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Ни грамма фальши</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Смычок</h1>
-                                <p class="grid__author">2022, драма, START</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1652367555.jpg" alt="Я иду искать" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Премьера</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Я иду искать</h1>
-                                <p class="grid__author">2022, драма, PREMIER</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1652867233.jpg" alt="Родители строгого режима" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Воспитать мэра</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Родители строгого режима</h1>
-                                <p class="grid__author">2022, комедия, PREMIER</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1652872614.jpg" alt="Абсурд" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Актёры поневоле</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Абсурд</h1>
-                                <p class="grid__author">2022, комедия, PREMIER</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <img src="./img/videoteka/1652950381.jpg" alt="Без памяти" />
-                        <div class="grid__body">
-                            <div class="mt-auto">
-                                <span class="grid__tag">Замуж невтерпёж</span>
-                            </div>
-                            <div class="relative">
-                                <a class="grid__link" target="_blank" href="/"></a>
-                                <h1 class="grid__title">Без памяти</h1>
-                                <p class="grid__author">2022, комедия, START</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                        <button class="subscription_button">Выбрать</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-            <!-- Kinozal -->
+        <!-- Devices -->
 
-            <section class="kinozal">
-                <div class="container">
-                    <h2 class="kino__h2 kino__position">Одна подписка - много сервисов</h2>
-                    <ul class="proba">
-                        <li><a href="#" class="start width"></a></li>
-                        <li><a href="#" class="ivi width"></a></li>
-                        <li><a href="#" class="more width"></a></li>
-                        <li><a href="#" class="megogo width"></a></li>
-                        <li><a href="#" class="okko width"></a></li>
-                        <li><a href="#" class="premier width"></a></li>
-                        <li><a href="#" class="tvoekino width"></a></li>
-                        <li><a href="#" class="armenia width"></a></li>
-                    </ul>
-
-                    <h2 class="kino__h2">
-                        Kartina.TV: кино и ТВ на родном языке в Германии, США и других странах
-                    </h2>
-                    <p class="kino_title">
-                        Kartina.TV — крупнейший провайдер интернет-телевидения, который предлагает
-                        огромный выбор национальных ТВ-каналов, а также фильмов и сериалов из
-                        коллекций популярных видеосервисов (START, ivi, more.tv, Megogo, Okko,
-                        PREMIER, а также видеотеки на украинском и армянском языках). Смотрите
-                        любимое кино, мультфильмы и передачи на русском, украинском и других языках
-                        в любой точке мира!
-                    </p>
-                </div>
-            </section>
-
-            <!-- Subscription -->
-
-            <section class="subscription">
-                <div class="container">
-                    <h2 class="subscription__title">
-                        Выберите карту пополнения <br />
-                        баланса подписки
-                    </h2>
-                    <ul class="subscription-wrapper">
-                        <li class="subscription-card">
-                            <img
-                                src="./img/subscription/25.png"
-                                alt="card25"
-                                class="subscription__img"
-                            />
-                            <div class="card_position">
-                                <h2 class="text_card">Картa пополнения баланса 25</h2>
-                                <p class="card_price">25&nbsp;€</p>
-                            </div>
-                            <button class="subscription_button">Выбрать</button>
-                        </li>
-                        <li class="subscription-card">
-                            <img
-                                src="./img/subscription/50.png"
-                                alt="card50"
-                                class="subscription__img"
-                            />
-                            <div class="card_position">
-                                <h2 class="text_card">Картa пополнения баланса 50</h2>
-                                <p class="card_price">50&nbsp;€</p>
-                            </div>
-                            <button class="subscription_button">Выбрать</button>
-                        </li>
-                        <li class="subscription-card">
-                            <img
-                                src="./img/subscription/100.png"
-                                alt="card100"
-                                class="subscription__img"
-                            />
-                            <div class="card_position">
-                                <h2 class="text_card">Картa пополнения баланса 100</h2>
-                                <p class="card_price">100&nbsp;€</p>
-                            </div>
-                            <button class="subscription_button">Выбрать</button>
-                        </li>
-                        <li class="subscription-card">
-                            <img
-                                src="./img/subscription/165.png"
-                                alt="card165"
-                                class="subscription__img"
-                            />
-                            <div class="card_position">
-                                <h2 class="text_card">Картa пополнения баланса 1 год</h2>
-                                <p class="card_price">165&nbsp;€</p>
-                            </div>
-                            <button class="subscription_button">Выбрать</button>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Devices -->
-
-            <section class="devices">
-                <div class="container">
-                    <h2 class="devices__title">
-                        В любом месте <br />
-                        на любом устройстве
-                    </h2>
-                    <picture>
-                        <source
-                            srcset="
+        <section class="devices">
+            <div class="container">
+                <h2 class="devices__title">
+                    В любом месте <br />
+                    на любом устройстве
+                </h2>
+                <picture>
+                    <source srcset="
                                 ./img/devices/Devices.jpg    1x,
                                 ./img/devices/Devices@2x.jpg 2x,
                                 ./img/devices/Devices@3x.jpg 3x
-                            "
-                            type="image/jpeg"
-                            media="(max-width: 767px)"
-                        />
-                        <source
-                            srcset="
+                            " type="image/jpeg" media="(max-width: 767px)" />
+                    <source srcset="
                                 ./img/devices/Devices.jpg    1x,
                                 ./img/devices/Devices@2x.jpg 2x,
                                 ./img/devices/Devices@3x.jpg 3x
-                            "
-                            type="image/jpeg"
-                            media="(min-width: 1200px)"
-                        />
-                        <img src="./img/devices/Devices.jpg" alt="devices" />
-                    </picture>
+                            " type="image/jpeg" media="(min-width: 1200px)" />
+                    <img src="./img/devices/Devices.jpg" alt="devices" />
+                </picture>
 
-                    <ul class="devices__list">
-                        <li class="clients__nane">
-                            <svg class="clients__logo">
-                                <use href="./img/svg/sprite.svg#icon-mobil"></use>
-                            </svg>
-                            
+                <ul class="devices__list">
+                    <li class="clients__nane">
+                        <svg class="clients__logo">
+                            <use href="./img/svg/sprite.svg#icon-mobil"></use>
+                        </svg>
+
+                    </li>
+
+                    <li class="clients__nane">
+                        <svg class="clients__logo">
+                            <use href="./img/svg/sprite.svg#icon-tv"></use>
+                        </svg>
+                    </li>
+
+                    <li class="clients__nane">
+                        <svg class="clients__logo">
+                            <use href="./img/svg/sprite.svg#icon-laptop"></use>
+                        </svg>
+                    </li>
+
+                    <li class="clients__nane">
+                        <svg class="clients__logo">
+                            <use href="./img/svg/sprite.svg#icon-devices"></use>
+                        </svg>
+                    </li>
+                </ul>
+
+                <div class="mobilblock">
+                    <h3 class="mobilblock__header">
+                        Скачайте приложение kartina.tv для смартфонов iOS и Android
+                    </h3>
+                    <ul class="mobilblock__list">
+                        <li class="mobilblock__item">
+                            <a href="https://itunes.apple.com/app/kartina-tv/id1293642476?mt=8" rel="nofollow">
+                                <img src="./img/devices/app-store.png" alt="App Store" />
                         </li>
-
-                        <li class="clients__nane">
-                            <svg class="clients__logo">
-                                <use href="./img/svg/sprite.svg#icon-tv"></use>
-                            </svg>
-                        </li>
-
-                        <li class="clients__nane">
-                            <svg class="clients__logo">
-                                <use href="./img/svg/sprite.svg#icon-laptop"></use>
-                            </svg>
-                        </li>
-
-                        <li class="clients__nane">
-                            <svg class="clients__logo">
-                                <use href="./img/svg/sprite.svg#icon-devices"></use>
-                            </svg>
+                        <li class="mobilblock__item">
+                            <a href="https://play.google.com/store/apps/details?id=tv.kartina.android.mobile&referrer=utm_source&kartina.tv=utm_medium&banner=utm_content&mnpage=utm_campaign&site"
+                                rel="nofollow">
+                                <img src="./img/devices/google-play.png" alt="Google Play" />
+                            </a>
                         </li>
                     </ul>
-
-                    <div class="mobilblock">
-                        <h3 class="mobilblock__header">
-                            Скачайте приложение kartina.tv для смартфонов iOS и Android
-                        </h3>
-                        <ul class="mobilblock__list">
-                            <li class="mobilblock__item">
-                                <a href="https://itunes.apple.com/app/kartina-tv/id1293642476?mt=8" rel="nofollow">                                                
-                                <img
-                                    src="./img/devices/app-store.png"
-                                    alt="App Store"
-                                />
-                            </li>
-                            <li class="mobilblock__item">
-                                <a href="https://play.google.com/store/apps/details?id=tv.kartina.android.mobile&referrer=utm_source&kartina.tv=utm_medium&banner=utm_content&mnpage=utm_campaign&site" rel="nofollow"> 
-                                    <img
-                                        src="./img/devices/google-play.png"
-                                        alt="Google Play"
-                                    />
-                                </a>
-                            </li>
-                        </ul>
-                        <p class="mobilblock__description">Отменить подписку можно в любой момент</p>
-                    </div>
+                    <p class="mobilblock__description">Отменить подписку можно в любой момент</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Console -->
+        <!-- Console -->
 
-            <section class="console">
-                <div class="container">
-                    <img
-                        src="./img/console/devicesroutername.svg"
-                        alt="devices_router"
-                        class="console_img"
-                    />
-                    <h2 class="console_title">Новая приставка от Kartina.TV</h2>
-                    <img
-                        src="./img/console/devicesrouters.png"
-                        alt="devices_routers"
-                        class="console_eva"
-                    />
-                    <h3 class="console_header">Всё нужное всегда под рукой!</h3>
-                    <h4 class="console_description">
-                        Одно нажатие кнопки — и любимые фильмы <br />
-                        и передачи появятся на экране с новой <br />
-                        приставкой Kartina EVA!
-                    </h4>
-                    <button class="hero_button">Купить приставку</button>
-                </div>
-            </section>
+        <section class="console">
+            <div class="container">
+                <img src="./img/console/devicesroutername.svg" alt="devices_router" class="console_img" />
+                <h2 class="console_title">Новая приставка от Kartina.TV</h2>
+                <img src="./img/console/devicesrouters.png" alt="devices_routers" class="console_eva" />
+                <h3 class="console_header">Всё нужное всегда под рукой!</h3>
+                <h4 class="console_description">
+                    Одно нажатие кнопки — и любимые фильмы <br />
+                    и передачи появятся на экране с новой <br />
+                    приставкой Kartina EVA!
+                </h4>
+                <button class="hero_button">Купить приставку</button>
+            </div>
+        </section>
 
-            <!-- Footer -->
+    </main>
+        <!-- Footer -->
 
-            <section class="footer">
-                <div class="container">
-                    <div class="footer_position">
-                        <h3 class="footer_text">© 2008 – 2022, Kartina.TV</h3>
-                        <ul class="footer_list">
-                            <li>
-                                <a href="tel:+380677193330" class="headertel">+380 67 719 33 30</a>
-                            </li>
-                            <!-- <li>
+        <section class="footer">
+            <div class="container">
+                <div class="footer_position">
+                    <h3 class="footer_text">© 2008 – 2022, Kartina.TV</h3>
+                    <ul class="footer_list">
+                        <li>
+                            <a href="tel:+380677193330" class="headertel">+380 67 719 33 30</a>
+                        </li>
+                        <!-- <li>
                         <h3 class="footer_text">О компании</h3>
                     </li>
                     <li>
@@ -448,19 +410,18 @@
                     <li>
                         <h3 class="footer_text">Datenschutz</h3>
                     </li> -->
-                        </ul>
-                        <img src="./img/footer/payment.png" alt="visa" class="footer_img" />
-                        <!-- <img src="./img/footer/mastercard.png" alt="mastercard" class="footer_img"> -->
-                    </div>
+                    </ul>
+                    <img src="./img/footer/payment.png" alt="visa" class="footer_img" />                    
                 </div>
-            </section>
-        </main>
+            </div>
+            
+        </section>
 
-<!-- ----------- modal ----------- -->
+    <!-- ----------- modal ----------- -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop">
         <div class="modal">
-            <!-- <form autocomplete="on">
+            <form autocomplete="on">
 
                 <div role="group">
                     <h2 class="modal__heading">Оставьте свои данные, мы вам перезвоним</h2>
@@ -508,35 +469,33 @@
                 </div>
 
                 <div class="policy">
-
                     <label class="policy__label">
                         <input class="policy__checkbox" type="checkbox" value="Соглашаюсь с рассылкой и принимаю" />
                         <span class="policy-icon"></span>
-
                         <span class="policy-text">Соглашаюсь с рассылкой и принимаю <a href="#">Условия
                                 договора</a></span>
                     </label>
-
                 </div>
 
                 <div class="modal__btn">
                     <button type="submit" class="modal__send">Отправить</button>
                 </div>
-
-            </form> -->
+            </form>
 
 
             <button class="modal__closed" data-modal-close>
-
                 <svg class="modal__thunb">
                     <use href="./img/icon.svg#icon-closed">
                     </use>
                 </svg>
-
             </button>
 
 
-            <script defer src="./js/mobile-menu.js"></script>
+            <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+                integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+                crossorigin="anonymous"></script>
             <script src="./js/modal.js"></script>
-    </body>
+            <!-- <script defer src="./js/mobile-menu.js"></script> -->
+</body>
+
 </html>

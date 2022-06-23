@@ -1278,7 +1278,7 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1301,6 +1301,7 @@ textarea {
   min-width: 528px;
   min-height: 581px;
   padding: 40px 40px;
+  border-radius: 20px;
   background-color: var(--second-bg-color);
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
@@ -1327,18 +1328,18 @@ textarea {
   border-radius: 50%;
   height: 30px;
   width: 30px;
-  background-color: var(--second-text-color);
+  background-color: var(--second-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: block;
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 7px;
+  right: 7px;
   cursor: pointer;
 }
 .modal__closed:hover svg, .modal__closed:focus svg {
-  fill: var(--second-text-color);
+  fill: #f40;
 }
 
 .modal__thunb {
@@ -1353,7 +1354,7 @@ textarea {
   font-size: 20px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--second-text-color);
   margin-bottom: 12px;
 }
 @media screen and (min-width: 480px) {
@@ -1378,7 +1379,7 @@ textarea {
 .modal__text {
   font-size: 12px;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: var(--second-text-color);
   margin-bottom: 4px;
   cursor: pointer;
 }
@@ -1458,14 +1459,12 @@ textarea {
 }
 
 .modal__send {
-  font-family: "Roboto";
   background-color: var(--btn-bg-color);
-  border-radius: 4px;
+  border-radius: 7px;
   border: var(--btn-bg-color);
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  color: var(--second-bg-color);
-  padding: 10px 56px;
+  font-size: 20px;
+  color: var(--primary-text-color);
+  padding: 18px 56px;
   cursor: pointer;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1495,7 +1494,7 @@ textarea {
 .policy input[type=checkbox] {
   width: 16px;
   height: 16px;
-  border: 2px solid #212121;
+  border: 2px solid #f40;
   border-radius: 2px;
 }
 
@@ -1509,11 +1508,11 @@ textarea {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--second-text-color);
   margin-left: 8px;
 }
 .policy__label a {
-  color: var(--second-text-color);
+  color: var(--btn-bg-color);
   text-decoration: underline;
 }
 @media screen and (min-width: 480px) {
@@ -1571,7 +1570,7 @@ textarea {
   min-width: 16px;
   min-height: 16px;
   margin-right: 8px;
-  border: 2px solid #212121;
+  border: 2px solid var(--first-bg-color);
   border-radius: 4px;
 }
 

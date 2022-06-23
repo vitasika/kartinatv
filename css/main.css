@@ -138,6 +138,23 @@
   }
 }
 
+.headermenu span {
+  width: 100%;
+  border: 2px solid var(--btn-bg-color);
+}
+
+.headermenu span::after {
+  width: 100%;
+  border: 2px solid var(--btn-bg-color);
+  padding: 3px;
+}
+
+.headermenu span::before {
+  width: 100%;
+  border: 2px solid var(--btn-bg-color);
+  padding: 3px;
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;

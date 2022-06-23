@@ -1412,7 +1412,7 @@ textarea {
   min-width: 528px;
   min-height: 581px;
   padding: 40px 40px;
-  background-color: var(--btn-bg-color);
+  background-color: var(--second-bg-color);
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
   -webkit-transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1440,7 +1440,7 @@ textarea {
   border-radius: 50%;
   height: 30px;
   width: 30px;
-  background: var(--second-text-color);
+  background-color: var(--second-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1572,36 +1572,33 @@ textarea {
 
 .modal__item:hover input,
 .modal__item:hover textarea {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--btn-bg-color);
   cursor: pointer;
 }
 
 .modal__item:focus input,
 .modal__item:focus textarea {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--btn-bg-color);
   cursor: pointer;
 }
 
 .modal__send {
-  background: #2196f3;
+  font-family: "Roboto";
+  background-color: var(--btn-bg-color);
   border-radius: 4px;
-  border: #2196f3;
-  font-weight: bold;
+  border: var(--btn-bg-color);
   font-size: 16px;
   letter-spacing: 0.06em;
   color: var(--second-bg-color);
   padding: 10px 56px;
   cursor: pointer;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__send:hover {
-  background-color: var(--btn-bg-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #f40;
+  border-color: #cc5200;
 }
 
 .modal__btn {
@@ -1622,7 +1619,7 @@ textarea {
   cursor: pointer;
 }
 
-.policy input[type="checkbox"] {
+.policy input[type='checkbox'] {
   width: 16px;
   height: 16px;
   border: 2px solid #212121;

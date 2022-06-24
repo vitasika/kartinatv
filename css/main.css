@@ -1478,7 +1478,7 @@ textarea {
 
 .modal__closed:hover, .modal__closed:focus {
   background-color: #fff;
-  border: 1px solid coral;
+  border: 1px solid #f40;
 }
 
 .modal__thunb {

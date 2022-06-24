@@ -58,16 +58,22 @@
   top: 7px;
   right: 7px;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover svg,
   &:focus svg {
     fill: #f40;
   }
+
+  &:hover, &:focus {
+    background-color: #fff;
+    border: 1px solid coral;
+  }
 }
 
 .modal__thunb {
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -58,14 +58,16 @@
   top: 7px;
   right: 7px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover svg,
   &:focus svg {
     fill: #f40;
   }
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background-color: #fff;
     border: 1px solid #f40;
   }
@@ -160,9 +162,7 @@
   background-color: var(--btn-bg-color);
   border-radius: 7px;
   border: var(--btn-bg-color);
-  //   font-weight: bold;
   font-size: 20px;
-  // letter-spacing: 0.11em;
   color: var(--primary-text-color);
   padding: 18px 56px;
   cursor: pointer;
@@ -274,7 +274,7 @@
 
 .policy__checkbox:checked + .policy-icon {
   border: transparent;
-  background-image: url(/img/icon_check_police.svg);
+  background-image: url(../img/icon_check_police.svg);
   background-size: contain;
   background-origin: border-box;
 }

@@ -8,12 +8,6 @@
   margin-bottom: 32px;
   text-align: start;
 
-  @media screen and (max-width: 479px) {
-  }
-
-  @media screen and (min-width: 480px) {
-  }
-
   @media screen and (min-width: 768px) {
     text-align: center;
     font-size: 26px;
@@ -30,17 +24,8 @@
 .kino__position {
   text-align: start;
 
-  @media screen and (max-width: 479px) {
-  }
-
-  @media screen and (min-width: 480px) {
-  }
-
   @media screen and (min-width: 768px) {
     text-align: center;
-  }
-
-  @media screen and (min-width: 1200px) {
   }
 }
 
@@ -51,12 +36,6 @@
   font-size: 14px;
   text-align: start;
   color: #9b9d9f;
-
-  @media screen and (max-width: 479px) {
-  }
-
-  @media screen and (min-width: 480px) {
-  }
 
   @media screen and (min-width: 768px) {
     text-align: center;
@@ -78,12 +57,6 @@
   justify-content: space-between;
   margin-bottom: 32px;
 
-  @media screen and (max-width: 479px) {
-  }
-
-  @media screen and (min-width: 480px) {
-  }
-
   @media screen and (min-width: 768px) {
     margin-bottom: 35px;
   }
@@ -97,26 +70,11 @@
   @media screen and (max-width: 1199px) {
     margin: 15px;
   }
-
-  @media screen and (min-width: 1200px) {
-  }
 }
 
 .width {
   width: 96px;
   height: 68px;
-
-  @media screen and (max-width: 479px) {
-  }
-
-  @media screen and (min-width: 480px) {
-  }
-
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1200px) {
-  }
 }
 
 .start {

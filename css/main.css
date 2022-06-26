@@ -1710,18 +1710,7 @@ textarea {
 .mobilmenu {
   position: fixed;
   width: 352px;
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
   top: 0;
   right: 0;
-  bottom: 0;
-  overflow: auto;
   background: #000;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  display: block;
 }/*# sourceMappingURL=main.css.map */

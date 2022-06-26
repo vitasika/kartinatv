@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   border-bottom: #9b9d9f solid 1px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   -webkit-transform: translate(-50%) scale(1);
@@ -9,6 +9,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 3;
 }
 @media screen and (max-width: 479px) {
   .header {
@@ -1704,4 +1705,23 @@ textarea {
   top: 50%;
   -webkit-transform: scale(1) translate(0px, -50%);
           transform: scale(1) translate(0px, -50%);
+}
+
+.mobilmenu {
+  position: fixed;
+  width: 352px;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  background: #000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: block;
 }/*# sourceMappingURL=main.css.map */

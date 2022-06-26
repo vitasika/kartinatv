@@ -7,21 +7,17 @@
     transform: translate(-50%) scale(1);
     display: flex;
 
-    // @media screen and (max-width: 479px) {
-    //     padding: 5px 0;
-    // }
+    @media screen and (max-width: 479px) {
+        padding: 5px 0;
+    }
 
-    // @media screen and (min-width: 480px) {
-    //     padding: 5px 0;
-    // }
+    @media screen and (min-width: 480px) {
+        padding: 5px 0;
+    }
 
-    // @media screen and (min-width: 768px) {
-    //     padding: 10px 0;
-    // }
-
-    // @media screen and (min-width: 1200px) {
-    //     padding: 20px 0;
-    // }
+    @media screen and (min-width: 768px) {
+        padding: 10px 0;
+    }
 }
 
 .headerbox {
@@ -48,9 +44,6 @@
 
 .headerlogo {
     width: 85px;
-
-    @media screen and (max-width: 479px) {
-    }
 
     @media screen and (min-width: 480px) {
         width: 90px;
@@ -89,6 +82,35 @@
 
     @media screen and (min-width: 1200px) {
         font-size: 18px;
+    }
+}
+
+.headertel__link {
+    display: flex;
+
+    & > a:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.headertel__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #9b9d9f45 solid 2px;
+    border-radius: 7px;
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    & svg {
+        width: 15px;
+        height: 20px;
+    }
+
+    &:focus,
+    &:hover {
+        border: #ffffff solid 2px;
     }
 }
 

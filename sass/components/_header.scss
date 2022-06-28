@@ -160,7 +160,8 @@
     }
 }
 
-.headermenu {
+.headermenu,
+.mobilmenu__header {
     display: flex;
     align-items: center;
     font-weight: 400;
@@ -176,7 +177,8 @@
     }
 }
 
-.headermenu__text {
+.headermenu__text,
+.mobilmenu__text {
     @media screen and (max-width: 1199px) {
         display: none;
     }

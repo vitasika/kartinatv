@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   border-bottom: #9b9d9f solid 1px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 50%;
   -webkit-transform: translate(-50%) scale(1);
@@ -1710,7 +1710,88 @@ textarea {
 .mobilmenu {
   position: fixed;
   width: 352px;
+  height: 100vh;
   top: 0;
   right: 0;
   background: #000;
+  text-align: start;
+}
+
+.mobilmenu__header {
+  border-bottom: 1px solid #282828;
+  text-align: end;
+  padding: 15px 25px;
+}
+
+.mobilmenu__text {
+  font-size: 32px;
+}
+
+.mobilmenu__item {
+  padding: 15px 25px;
+  border-bottom: 1px solid #282828;
+}
+
+.mobilmenu__list li,
+.mobilmenu__list a {
+  font-size: 20px;
+}
+
+.mobilmenu__text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  border: rgba(155, 157, 159, 0.2705882353) solid 2px;
+  border-radius: 7px;
+  padding: 8px 18px;
+  cursor: pointer;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobilmenu__text:focus, .mobilmenu__text:hover {
+  border: #ffffff solid 2px;
+}
+
+.mobilmenu__text span,
+.mobilmenu__text::after,
+.mobilmenu__text::before {
+  position: absolute;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--btn-primary-text-color);
+}
+
+.mobilmenu__text::after,
+.mobilmenu__text::before {
+  content: "";
+}
+
+.mobilmenu__text::before {
+  top: 0;
+}
+
+.mobilmenu__text::after {
+  bottom: 0;
+}
+
+.mobilmenu__text span {
+  top: 50%;
+  -webkit-transform: scale(1) translate(0px, -50%);
+          transform: scale(1) translate(0px, -50%);
+}
+
+.mobilmenu__text {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 18px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

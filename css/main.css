@@ -1785,4 +1785,32 @@ textarea {
   top: 50%;
   -webkit-transform: scale(0) translate(0px, -50%);
           transform: scale(0) translate(0px, -50%);
+}
+
+.manuals:focus, .manuals:hover,
+.firmware-updates:focus,
+.firmware-updates:hover {
+  color: var(--btn-text-color);
+}
+@media screen and (max-width: 767px) {
+  .manuals,
+.firmware-updates {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .manuals,
+.firmware-updates {
+    padding: 22px 0;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: inherit;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .manuals,
+.firmware-updates {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */

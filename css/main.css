@@ -1715,7 +1715,7 @@ textarea {
   right: 0;
   background: #000;
   text-align: start;
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .mobilmenu__header {
@@ -1744,7 +1744,7 @@ textarea {
 .mobilmenu__item-head {
   text-align: end;
   color: var(--btn-text-color);
-  padding-bottom: 10px;
+  padding: 0 25px 15px 0;
   border-bottom: 1px solid #282828;
 }
 
@@ -1753,8 +1753,12 @@ textarea {
   border-bottom: 1px solid #282828;
 }
 
-.mobilmenu__list li,
 .mobilmenu__list a {
+  font-size: 20px;
+  padding: 15px 25px;
+}
+
+.mobilmenu__list li {
   font-size: 20px;
 }
 

@@ -189,6 +189,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: inherit;
+  background-color: transparent;
   font-weight: 400;
   border: rgba(155, 157, 159, 0.2705882353) solid 2px;
   border-radius: 7px;
@@ -1717,8 +1719,14 @@ textarea {
   text-align: start;
   padding: 15px 0;
 }
+@media screen and (min-width: 768px) {
+  .mobilmenu {
+    display: none;
+  }
+}
 
 .mobilmenu__header {
+  background-color: transparent;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1726,6 +1734,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 400;
+  color: var(--btn-text-color);
   border: rgba(155, 157, 159, 0.2705882353) solid 2px;
   border-radius: 7px;
   padding: 8px 18px;
@@ -1743,7 +1752,6 @@ textarea {
 
 .mobilmenu__item-head {
   text-align: end;
-  color: var(--btn-text-color);
   padding: 0 25px 15px 0;
   border-bottom: 1px solid #282828;
 }
@@ -1762,21 +1770,12 @@ textarea {
   font-size: 20px;
 }
 
-.mobilmenu__online {
+.mobilmenu__menu {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: inherit;
 }
-.mobilmenu__online:focus, .mobilmenu__online:hover {
-  color: var(--btn-text-color);
-}
-
-.mobilmenu__speed {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: inherit;
-}
-.mobilmenu__speed:focus, .mobilmenu__speed:hover {
+.mobilmenu__menu:focus, .mobilmenu__menu:hover {
   color: var(--btn-text-color);
 }
 
@@ -1823,11 +1822,6 @@ textarea {
           transform: scale(0) translate(0px, -50%);
 }
 
-.manuals:focus, .manuals:hover,
-.firmware-updates:focus,
-.firmware-updates:hover {
-  color: var(--btn-text-color);
-}
 @media screen and (max-width: 767px) {
   .manuals,
 .firmware-updates {
@@ -1849,6 +1843,11 @@ textarea {
 .firmware-updates {
     font-size: 18px;
   }
+}
+.manuals:focus, .manuals:hover,
+.firmware-updates:focus,
+.firmware-updates:hover {
+  color: var(--btn-text-color);
 }
 
 .mobilmenu__text {

@@ -16,7 +16,7 @@
     // }
 
     &.is-open {
-      display: none;
+        display: none;
     }
 
     // &.is-open .menu-button__cross{
@@ -104,7 +104,7 @@
 
 .mobilmenu__closes::after,
 .mobilmenu__closes::before {
-    content: "";
+    content: '';
 }
 
 .mobilmenu__closes::before {

@@ -11,7 +11,16 @@
     // @media screen and (max-width: 479px) {
     // }
 
-    // @media screen and (min-width: 480px) {
+    // @media screen and (max-width: 480px) {
+
+    // }
+
+    &.is-open {
+      display: none;
+    }
+
+    // &.is-open .menu-button__cross{
+    //   display: block;
     // }
 
     @media screen and (min-width: 768px) {

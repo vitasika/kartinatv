@@ -1856,12 +1856,6 @@ textarea {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
-  .mobilmenu {
-    display: none;
-  }
-}
-
 .mobilmenu__header {
   background-color: transparent;
   display: -webkit-inline-box;

@@ -1506,8 +1506,9 @@ textarea {
 
 @media screen and (max-width: 479px) {
   .modal {
-    min-width: 320px;
+    min-width: 300px;
     min-height: 609px;
+    padding: 40px 25px;
   }
 }
 

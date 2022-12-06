@@ -1849,7 +1849,7 @@ textarea {
   right: 0;
   background: #000;
   text-align: start;
-  padding: 15px 0;
+  padding: 13px 0;
 }
 
 .mobilmenu.is-open {
@@ -1884,7 +1884,7 @@ textarea {
 
 .mobilmenu__item-head {
   text-align: end;
-  padding: 0 25px 15px 0;
+  padding: 0 25px 10px 0;
   border-bottom: 1px solid #282828;
 }
 

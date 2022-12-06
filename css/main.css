@@ -1850,10 +1850,20 @@ textarea {
   background: #000;
   text-align: start;
   padding: 13px 0;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .mobilmenu.is-open {
   display: none;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.mobilmenu.is-open .menu-button__cross {
+  display: block;
 }
 
 .mobilmenu__header {
@@ -1884,7 +1894,7 @@ textarea {
 
 .mobilmenu__item-head {
   text-align: end;
-  padding: 0 25px 10px 0;
+  padding: 0 25px 12px 0;
   border-bottom: 1px solid #282828;
 }
 

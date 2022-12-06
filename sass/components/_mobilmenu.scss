@@ -7,8 +7,8 @@
     background: #000;
     text-align: start;
     padding: 13px 0;
-    // transform: translateY(0);
-    // transition: all 0.3s ease 0s;
+    transform: translateY(0);
+    transition: all 0.3s ease 0s;
 
     // @media screen and (max-width: 479px) {
     // }
@@ -19,12 +19,12 @@
 
     &.is-open {
         display: none;
-        // transform: translateY(100%);
+        transform: translateY(100%);
     }
     
-    // &.is-open .menu-button__cross{
-    //   display: block;
-    // }
+    &.is-open .menu-button__cross{
+      display: block;
+    }
 
     // @media screen and (min-width: 768px) {
     //     display: none;
@@ -58,7 +58,7 @@
 
 .mobilmenu__item-head {
     text-align: end;
-    padding: 0 25px 10px 0;
+    padding: 0 25px 12px 0;
     border-bottom: 1px solid #282828;
 }
 

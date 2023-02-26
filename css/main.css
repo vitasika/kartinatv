@@ -1712,7 +1712,7 @@ textarea {
 
 .mobilmenu {
   position: fixed;
-  width: 352px;
+  width: 320px;
   height: 100vh;
   top: 0;
   right: 0;
@@ -1721,13 +1721,19 @@ textarea {
   padding: 13px 0;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: -webkit-transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobilmenu.is-open {
   display: none;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
+  -webkit-transition: -webkit-transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobilmenu.is-open .menu-button__cross {
   display: block;
@@ -1832,13 +1838,13 @@ textarea {
 
 @media screen and (max-width: 767px) {
   .manuals,
-.firmware-updates {
+  .firmware-updates {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
   .manuals,
-.firmware-updates {
+  .firmware-updates {
     padding: 22px 0;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1848,7 +1854,7 @@ textarea {
 }
 @media screen and (min-width: 1200px) {
   .manuals,
-.firmware-updates {
+  .firmware-updates {
     font-size: 18px;
   }
 }
